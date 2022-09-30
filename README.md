@@ -1,7 +1,94 @@
-# Happy Bee's Cafe
-Happy Bee's Cafe is based in Halifax, West Yorkshire. It is a friendly, family run business that offers a seated cafe experience, as well as takeaway and local delivery orders. The website aims to be a complete, up to date hub for what the business offers. Users can expect to find all pertinent information such as menus and pricing, as well as how to get in touch and follow the latest updates on social channels.
+# Happy Bee's Cafe Website
+This is a website for the Happy Bee's Cafe in Halifax, West Yorkshire. The website is fully responsive to users on a range of different devices, coded in HTML5 and CSS3. 
+
+A link to the live webpage can be found here: (www...)
+
+(insert mock up image of site here)
+
+---
+
+## Table of Contents
+
+- [User Experience (UX)](#user-experience-ux)
+  - [User Stories](#user-stories)
+
+- [Design Process](#design-process)
+  - [Wireframes](#wireframes)
+  - [Typography](#typography)
+  - [Colour Palette](#colour-palette)
+  - [Imagery](#imagery)
+
+- [Features](#features)
+  - [Homepage](#homepage)
+    - Header
+    - Navigation Bar
+    - Hero Image
+    - About Us
+    - Footer
+  - [Menu Page](#menu-page)
+    - Menus
+  - [Gallery Page](#gallery-page)
+    - Image Gallery
+  - [Order Page](#order-page)
+    - Order Form
+
+- [Validation Testing](#validation-testing)
+  - [HTML Testing]
+  - [CSS Testing]
+
+- [Unfixed Bugs](#unfixed-bugs)
+
+- [Deployment Strategy](#deployment-strategy)
+
+- [Technologies Used](#technologies-used)
+
+- [Credits](#credits)
+
+---
+
+## User Experience (UX)
+
+Happy Bee's Cafe is a friendly, family run business that offers a seated cafe experience, as well as takeaway and local delivery orders. The website aims to be a complete, up to date hub for what the business offers. Users can expect to find all pertinent information such as menus and pricing, as well as how to get in touch and follow the latest updates on social channels.
 
 The site is built from the ground up to be fully responsive with a 'mobile-first' design philosophy. The appearance and functionality of the site will be built with progressive advancement in mind. This ensures that the user has a positive emotional experience interacting with the site, regardless of their chosen device. [Google](https://developers.google.com/search/mobile-sites/mobile-first-indexing) index and rank pages based on the primarily mobile version so this design choice gears the site to be more SEO-friendly.
+
+### User Stories
+
+The website exists for the benefit of the business owners, thier current customers and future customers. The goals outlined below shows the purpose of the site from those perspectives:
+
+- Client Goals:
+  - For potential customers to find the cafe
+  - For potential customers to place and order by telephone or form
+  - To project a positive brand image to attract customers to visit
+  - To keep current customers in the loop and up to date
+
+- First Time Visitor Goals:
+  - To easily find the location of the cafe
+  - To see what food is on offer
+  - To view the price of the food on offer
+  - To see the eating in area
+
+- Returning Visitor Goals:
+  - To have the ability to place customised orders for collection
+  - To have the ability to place customised orders for delivery
+  - To have the most up to date information on pricing
+
+- Frequent Visitor Goals:
+  - To be able to follow the cafe's social media channels to connect further
+
+---
+
+## Design Process
+
+### Wireframes
+
+### Typography
+
+### Colour Palette
+
+### Imagery
+
+---
 
 ## Features:
 
@@ -17,7 +104,11 @@ The site is built from the ground up to be fully responsive with a 'mobile-first
 - Footer
   - The page finishes with valuable information such as address, contact information and social links. There are calls to action for the user to connect with the business by finding the location on Google Maps or to follow the Facebook page. An easily accessible button to return to the top affords mobile users a swift viewing experience by sending them back to the navigational links.
 
-*The Header, Navigation Bar and Footer are consistent elements on every page.* The user would expect to know where they are and how to easily access the other pages of the site. The key features of their respective pages are detailed below:
+---
+
+*The Header, Navigation Bar and Footer are consistent elements on every page.* The user would expect to know which page they are on and how to easily access the other pages of the site. The key features of their respective pages are detailed below:
+
+---
 
 ### Menu page:
 - Menus
@@ -31,20 +122,35 @@ The site is built from the ground up to be fully responsive with a 'mobile-first
 - Order Form
   - This form gives the user a way to interact in placing a custom order. Wether for a workplace lunch or a fully catered event, the customer can send their request to be prepared.
 
+---
+
 ## Testing
 tbw
 
-## Validator Testing
+## Validation Testing
 - HTML
   - tbw
 - CSS
   - tbw
 
+---
+
 ## Unfixed Bugs
 tbw
 
-## Deployment
+---
+
+## Deployment Strategy
 tbw
+
+---
+
+## Technologies Used
+tbw
+
+---
 
 ## Credits
 tbw
+
+[Return to top](#happy-bees-cafe-website)
