@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
 * {
     border: 0;
@@ -9,15 +9,15 @@
 /* Header */
 
 #mainheader {
-    font-family: 'Just Another Hand', cursive;
+    font-family: Alatsi, Helvetica, sans-serif;
+    text-transform: uppercase;
     text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px white, 2px 2px yellow;
 }
 
 #mainheader img {
-    height: 4rem;
+    height: 1em;
     vertical-align: top;
-}
-
-h1 {
-    font-size: 60px;
+    padding: 2px 2px 0 0;
 }
