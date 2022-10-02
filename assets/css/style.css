@@ -12,7 +12,6 @@
     font-family: Alatsi, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 18px;
     text-shadow: 1px 1px white, 2px 2px yellow;
 }
 
@@ -20,4 +19,13 @@
     height: 1em;
     vertical-align: top;
     padding: 2px 2px 0 0;
+}
+
+.flex-container * {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
