@@ -122,3 +122,38 @@ nav a {
 #return-top i {
     color: orange;
 }
+
+/* Menu */
+
+#menu-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: yellow;
+}
+
+.menu-chalkboard {
+    background: black;
+    color: white;
+    border: .5em ridge burlywood;
+    margin: .5em;
+    padding: .5em;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.menu-chalkboard td {
+    padding: .5em;
+}
+
+.menu-specials {
+    list-style: disc inside;
+    text-align: center;
+}
+
+.menu-specials h3,
+li {
+    padding: .5em;
+}
+
+.menu-specials em {
+    color: gold;
+}
