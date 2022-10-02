@@ -51,7 +51,7 @@ nav a {
 #hero-outer {
     height: 50vh;
     background: url('../images/hero-image.png') no-repeat center;
-    position: relative;    
+    position: relative;  
 }
 
 #hero-overlay {
@@ -71,4 +71,54 @@ nav a {
 #about-us {
     background: blanchedalmond;
     padding: 1em;
+}
+
+/* Footer */
+
+#footer { 
+    background: black;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#footer table {
+    padding: 1em;
+}
+
+#footer i {
+    font-size: 3em;
+    padding: .25em;
+    text-decoration: none;
+    color: white;
+}
+
+#map-button {
+    background: skyblue;
+    border-radius: 25px;
+    padding: 1em;
+    margin: auto;
+}
+
+#map-button a {
+    color: black;
+    text-decoration: none;
+    padding: 1em;
+}
+
+#return-top {
+    width: 100%;
+    text-align: end;
+    padding: 1em;
+}
+
+#return-top a {
+    text-decoration: none;
+    color: orange;
+}
+
+#return-top i {
+    color: orange;
 }
