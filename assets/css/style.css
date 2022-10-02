@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
 * {
-    border: 0;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
 /* Header */
