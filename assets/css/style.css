@@ -32,7 +32,7 @@ body {
     align-items: center;
     background-color: black;
     color: white;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 nav a {
@@ -43,5 +43,24 @@ nav a {
     background: orange;
     border-radius: 25px;
     color: black;
-    
+}
+
+/* Hero Image */
+
+#hero-outer {
+    height: 50vh;
+    background: url('../images/hero-image.png') no-repeat center;
+    position: relative;    
+}
+
+#hero-overlay {
+    background: black;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    padding: .5em;
+    border: 2px dashed darkgray;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
 }
