@@ -68,7 +68,7 @@ nav a {
 
 /* About Us */
 
-#about-us {
+.page-blurb {
     background: blanchedalmond;
     padding: 1em;
 }
