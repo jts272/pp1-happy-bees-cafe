@@ -157,3 +157,24 @@ li {
 .menu-specials em {
     color: gold;
 }
+
+/* Gallery */
+
+#gallery-outer {
+    
+}
+
+#gallery-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: .5em;
+    padding: .5em;
+    background: yellow;
+}
+
+#gallery-wrapper img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
