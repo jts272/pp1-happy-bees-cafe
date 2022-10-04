@@ -34,43 +34,43 @@
             <form action="">
                 <fieldset>
                     <legend>Contact Details</legend>
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" required>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname">
-                    <label for="tel">Telephone Number</label>
-                    <input type="tel" required>
-                    <label for="email">Email Address (optional)</label>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" required><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname"><br>
+                    <label for="tel">Telephone Number</label><br>
+                    <input type="tel" required><br>
+                    <label for="email">Email Address (optional)</label><br>
                     <input type="email">
                 </fieldset>
                 <fieldset>
                     <legend>Delivery/Collection</legend>
                     <input type="radio" id="collection" name="deliverymethod" value="collection" required>
-                    <label for="collection">I want to collect my order from the cafe</label>
+                    <label for="collection">I want to collect my order from the cafe</label><br>
                     <input type="radio" id="delivery" name="deliverymethod" value="delivery">
-                    <label for="delivery">I want you to deliver to the address below:</label>
-                    <label for="addressline1">Address Line 1</label>
-                    <input type="text">
-                    <label for="addressline2">Address Line 2</label>
-                    <input type="text">
-                    <label for="postcode">Postcode</label>
-                    <input type="text">
+                    <label for="delivery">I want delivery to the address below:</label><br><br>
+                    <label for="addressline1">Address Line 1</label><br>
+                    <input type="text"><br>
+                    <label for="addressline2">Address Line 2</label><br>
+                    <input type="text"><br>
+                    <label for="postcode">Postcode</label><br>
+                    <input type="text"><br>
                 </fieldset>
                 <fieldset>
                     <legend>Your Order</legend>
-                    <label for="menuorder">Order from our Menu</label>
-                    <textarea name="menuorder" id="menuorder" placeholder="Which meals would you like? Include quantities and any extra sides/fillings..."></textarea>
-                    <label for="eventorder">Order for an event</label>
-                    <textarea name="eventorder" id="eventorder" placeholder="Let us know here if you want an event catering, such as a birthday party. Include theme, number of people etc..."></textarea>
-                    <label for="receivetime">Select Date/Time of Order</label>
+                    <label for="menuorder">Order from our Menu</label><br>
+                    <textarea name="menuorder" id="menuorder" placeholder="Which meals would you like? Include quantities and any extra sides/fillings..." rows="5"></textarea><br>
+                    <label for="eventorder">Order for an event</label><br>
+                    <textarea name="eventorder" id="eventorder" placeholder="Let us know here if you want an event catering, such as a birthday party. Include theme, number of people etc..." rows="5"></textarea><br>
+                    <label for="receivetime">Select Date/Time of Order</label><br>
                     <input type="datetime-local" id="receivetime" name="receivetime">
                 </fieldset>
                 <fieldset>
                     <legend>Payment and Order Placement</legend>
                     <input type="radio" id="cash" name="paymeth od" value="cash" required>
-                    <label for="cash">I will pay cash on collection</label>
+                    <label for="cash">I will pay cash on collection</label><br>
                     <input type="radio" id="card" name="paymethod" value="card">
-                    <label for="card">I will pay with card over telephone</label>
+                    <label for="card">I will pay with card over telephone</label><br><br>
                     <input type="submit" value="Place your Order!">
                 </fieldset>
             </form>

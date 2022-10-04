@@ -174,3 +174,29 @@ li {
     border: 1px solid black;
     border-radius: 5px;
 }
+
+/* Order Form */
+
+form {
+    padding: .5em;
+}
+
+fieldset {
+    margin: 1em;
+    padding: .5em;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: orange;
+    border: 0;
+    padding: 1.5em;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: l1.2em;
+    margin: auto;
+}
