@@ -160,10 +160,6 @@ li {
 
 /* Gallery */
 
-#gallery-outer {
-    
-}
-
 #gallery-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
