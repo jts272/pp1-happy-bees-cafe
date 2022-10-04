@@ -199,4 +199,5 @@ input[type="submit"] {
     font-family: inherit;
     font-size: l1.2em;
     margin: auto;
+    cursor: pointer;
 }

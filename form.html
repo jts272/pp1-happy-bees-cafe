@@ -30,8 +30,8 @@
             <p>Let us know how you'd like to pay and collect and our busy bees will have it ready when you need it!</p><br>
             <p>If you have an event coming up, we can cater for that too. Give us a description of your requirements and we will be back in touch!</p>
         </section>
-        <section>
-            <form action="">
+        <div>
+            <form action="thankyou.html">
                 <fieldset>
                     <legend>Contact Details</legend>
                     <label for="fname">First Name</label><br>
@@ -39,9 +39,9 @@
                     <label for="lname">Last Name</label><br>
                     <input type="text" id="lname"><br>
                     <label for="tel">Telephone Number</label><br>
-                    <input type="tel" required><br>
+                    <input type="tel" id="tel" required><br>
                     <label for="email">Email Address (optional)</label><br>
-                    <input type="email">
+                    <input type="email" id="email">
                 </fieldset>
                 <fieldset>
                     <legend>Delivery/Collection</legend>
@@ -49,12 +49,12 @@
                     <label for="collection">I want to collect my order from the cafe</label><br>
                     <input type="radio" id="delivery" name="deliverymethod" value="delivery">
                     <label for="delivery">I want delivery to the address below:</label><br><br>
-                    <label for="addressline1">Address Line 1</label><br>
-                    <input type="text"><br>
-                    <label for="addressline2">Address Line 2</label><br>
-                    <input type="text"><br>
+                    <label for="address1">Address Line 1</label><br>
+                    <input type="text" id="address1"><br>
+                    <label for="address2">Address Line 2</label><br>
+                    <input type="text" id="address2"><br>
                     <label for="postcode">Postcode</label><br>
-                    <input type="text"><br>
+                    <input type="text" id="postcode"><br>
                 </fieldset>
                 <fieldset>
                     <legend>Your Order</legend>
@@ -67,19 +67,21 @@
                 </fieldset>
                 <fieldset>
                     <legend>Payment and Order Placement</legend>
-                    <input type="radio" id="cash" name="paymeth od" value="cash" required>
+                    <input type="radio" id="cash" name="paymethod" value="cash" required>
                     <label for="cash">I will pay cash on collection</label><br>
                     <input type="radio" id="card" name="paymethod" value="card">
                     <label for="card">I will pay with card over telephone</label><br><br>
                     <input type="submit" value="Place your Order!">
                 </fieldset>
             </form>
-        </section>
+        </div>
     </main>
     <footer id="footer">
         <div id="contact-details">
             <table>
-                <th>Happy Bee's Cafe</th>
+                <tr>
+                    <th>Happy Bee's Cafe</th>
+                </tr>
                 <tr>
                     <td>3 Ovenden Road, Ovenden</td>
                 </tr>
@@ -93,7 +95,9 @@
         </div>
         <div id="social-cta">
             <table>
-                <th>Connect with us here!</th>
+                <tr>
+                    <th>Connect with us here!</th>
+                </tr>
                 <tr>
                     <td><a href="https://www.facebook.com/people/Happy-Bees-Cafe/100057339854373/"><i class="fa-brands fa-facebook"></i></a>
                     <a href="mailto:gemmabeb1993@gmail.com"><i class="fa-regular fa-envelope"></i></a>
