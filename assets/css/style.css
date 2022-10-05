@@ -197,7 +197,7 @@ input[type="submit"] {
     padding: 1.5em;
     border-radius: 50px;
     font-family: inherit;
-    font-size: l1.2em;
+    font-size: 1.2em;
     margin: auto;
     cursor: pointer;
 }
@@ -210,4 +210,34 @@ input[type="submit"] {
     background-blend-mode: overlay;
     width: 100%;
     height: 90vh;
+}
+
+/* 404 Page */
+
+.background-404 {
+    background: rgba(0, 0, 0, .6) url(../images/sunflowerbee.webp) no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.content-404 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    right: 1em;
+}
+
+.home-icon-404 {
+    color: white;
+    font-size: 3em;
 }
