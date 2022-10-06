@@ -161,6 +161,10 @@ li {
     color: gold;
 }
 
+td:nth-last-child(1) {
+    text-align: end;
+}
+
 /* Gallery */
 
 #gallery-wrapper {
