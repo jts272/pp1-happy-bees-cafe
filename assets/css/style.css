@@ -108,7 +108,7 @@ nav a {
     background: var(--blue);
     border-radius: 25px;
     padding: 1em;
-    margin: auto;
+    margin: auto 0;
 }
 
 #map-button a {
