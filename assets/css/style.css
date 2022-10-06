@@ -94,7 +94,7 @@ nav a {
 }
 
 #footer table {
-    padding: .5em;
+    padding: 1em .5em;
 }
 
 #footer i {
@@ -192,6 +192,13 @@ li {
 }
 
 /* Order Form */
+
+.form-container {
+    background: rgba(0, 0, 0, .7)url(../images/cafeperspective.jpeg) no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+}
 
 form {
     padding: .5em;
