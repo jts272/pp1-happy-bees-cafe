@@ -11,13 +11,21 @@ body {
     font-weight: 600;
 }
 
+/* Colour Variables */
+
+:root {
+    --black: rgb(39, 38, 38);
+    --yellow: rgb(254, 228, 2);
+    --blue: rgb(130, 213, 241);
+}
+
 /* Header */
 
 #mainheader {
     font-family: Alatsi, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 1px 1px white, 2px 2px yellow;
+    text-shadow: 1px 1px white, 2px 2px var(--yellow);
 }
 
 #mainheader img {
@@ -41,7 +49,7 @@ nav a {
 }
 
 .current-page {
-    background: orange;
+    background: var(--yellow);
     border-radius: 25px;
     color: black;
 }
@@ -51,7 +59,8 @@ nav a {
 #hero-outer {
     height: 50vh;
     background: url('../images/hero-image.png') no-repeat center;
-    position: relative;  
+    background-size: cover;
+    position: relative;
 }
 
 #hero-overlay {
@@ -76,7 +85,7 @@ nav a {
 /* Footer */
 
 #footer { 
-    background: black;
+    background: var(--black);
     color: white;
     display: flex;
     flex-flow: row wrap;
@@ -96,7 +105,7 @@ nav a {
 }
 
 #map-button {
-    background: skyblue;
+    background: var(--blue);
     border-radius: 25px;
     padding: 1em;
     margin: auto;
@@ -130,7 +139,7 @@ nav a {
     flex-flow: row wrap;
     flex: 1 1 100%;
     justify-content: center;
-    background-color: yellow;
+    background-color: var(--yellow);
     align-items: center;
 }
 
@@ -173,7 +182,7 @@ td:nth-last-child(1) {
     align-items: center;
     gap: .5em;
     padding: .5em;
-    background: yellow;
+    background: var(--yellow)
 }
 
 #gallery-wrapper img {
@@ -199,7 +208,7 @@ textarea {
 
 input[type="submit"] {
     width: 100%;
-    background: orange;
+    background: var(--yellow);
     border: 0;
     padding: 1.5em;
     border-radius: 50px;
