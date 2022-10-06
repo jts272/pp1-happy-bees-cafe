@@ -128,7 +128,10 @@ nav a {
 #menu-flex-container {
     display: flex;
     flex-flow: row wrap;
+    flex: 1 1 100%;
+    justify-content: center;
     background-color: yellow;
+    align-items: center;
 }
 
 .menu-chalkboard {
