@@ -26,14 +26,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     text-shadow: .05ex .05ex white, .2ex .2ex var(--yellow);
-    font-size: 6vw;
+    font-size: 5vw;
 }
-
-/* #mainheader img {
-    height: 1em;
-    vertical-align: top;
-    padding: 2px 2px 0 0;
-} */
 
 .flex-container * {
     display: flex;
@@ -43,6 +37,8 @@ body {
     background-color: var(--black);
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
+    position: sticky;
 }
 
 nav a {
