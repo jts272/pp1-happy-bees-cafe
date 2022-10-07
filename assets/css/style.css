@@ -70,7 +70,7 @@ nav a {
     position: relative;
 }
 
-#hero-overlay {
+.hero-overlay {
     background: black;
     color: white;
     display: inline-block;
@@ -78,7 +78,9 @@ nav a {
     right: 5%;
     bottom: 5%;
     padding: .5em;
-    border: 2px dashed darkgray;
+    border: .5em ridge burlywood;
+    margin: .5em;
+    padding: .5em;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
