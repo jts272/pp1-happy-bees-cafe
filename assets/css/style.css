@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Nunito&display=swap');
 
+/* Box Model Control */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
+/* Font Properties */
+
 body {
     font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+}
+
+body h2 {
+    font-size: 1.5rem;
+}
+
+body p {
+    font-size: 1rem;
 }
 
 /* Colour Variables */
