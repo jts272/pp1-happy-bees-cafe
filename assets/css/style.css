@@ -93,7 +93,7 @@ nav a {
 
 /* Footer */
 
-#footer { 
+.footer { 
     background: var(--black);
     color: white;
     display: flex;
@@ -102,43 +102,43 @@ nav a {
     text-align: center;
 }
 
-#footer table {
+.footer table {
     padding: 1em .5em;
 }
 
-#footer i {
+.footer i {
     font-size: 3em;
     padding: .25em;
     text-decoration: none;
     color: white;
 }
 
-#map-button {
+.map-button {
     background: var(--blue);
     border-radius: 25px;
     padding: 1em;
     margin: auto .5em;
 }
 
-#map-button a {
+.map-button a {
     color: black;
     text-decoration: none;
     padding: 1em;
 }
 
-#return-top {
+.return-top {
     width: 100%;
     text-align: end;
     padding: 1em;
 }
 
-#return-top a {
+.return-top a {
     text-decoration: none;
-    color: orange;
+    color: var(--yellow)
 }
 
-#return-top i {
-    color: orange;
+.return-top i {
+    color: var(--yellow)
 }
 
 /* Menu */
