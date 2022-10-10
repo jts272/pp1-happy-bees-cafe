@@ -278,3 +278,12 @@ input[type="submit"] {
     color: white;
     font-size: 3em;
 }
+
+/* Media Queries */
+
+@media screen and (min-width:1024px) {
+    body {
+        background: red;
+    }
+    
+}
