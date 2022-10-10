@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Nunito&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Alatsi&family=Nunito&display=swap);
 
 /* Box Model Control */
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 /* Font Properties */
@@ -14,12 +14,8 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-body h2 {
+h2 {
     font-size: 1.5rem;
-}
-
-body p {
-    font-size: 1rem;
 }
 
 /* Colour Variables */
@@ -38,8 +34,7 @@ body p {
     text-align: center;
     text-shadow: .05ex .05ex white, .2ex .2ex var(--yellow);
     font-size: 5vw;
-    margin: 2% 0;
-    
+    margin: 2% 0;  
 }
 
 .logo a {
@@ -72,7 +67,7 @@ nav a {
 
 #hero-outer {
     height: 50vh;
-    background: url('../images/hero-image.png') no-repeat center;
+    background: url(../images/hero-image.png) no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -141,14 +136,14 @@ nav a {
 
 .return-top a {
     text-decoration: none;
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
 .return-top i {
-    color: var(--yellow)
+    color: var(--yellow);
 }
 
-/* Menu */
+/* Menu Page */
 
 .menu-flex-container {
     display: flex;
@@ -209,7 +204,7 @@ li {
     width: 100%;
 }
 
-/* Order Form */
+/* Order Form Page */
 
 .form-container {
     background: rgba(0, 0, 0, .7)url(../images/cafeperspective.jpeg) no-repeat;
@@ -241,6 +236,7 @@ input[type="submit"] {
     font-size: 1.2em;
     margin: auto;
     cursor: pointer;
+    color: black;
 }
 
 /* Thank You Page */
