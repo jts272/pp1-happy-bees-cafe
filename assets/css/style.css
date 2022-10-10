@@ -183,31 +183,14 @@ li {
     text-align: end;
 }
 
-/* Gallery */
-
-/* #gallery-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: .5em;
-    padding: .5em;
-    background: var(--yellow)
-}
-
-#gallery-wrapper img {
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
-} */
+/* Gallery Page */
 
 .gallery-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: auto;
     grid-gap: .5em;
-    padding: 1em;
-    background: red;
-    justify-content: space-evenly;
+    padding: .5em;
+    background: var(--yellow);
 }
 
 .gallery-container > div {
@@ -218,7 +201,6 @@ li {
 .gallery-container > div > img {
     width: 100%;
 }
-
 
 /* Order Form */
 
