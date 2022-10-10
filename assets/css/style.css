@@ -281,9 +281,38 @@ input[type="submit"] {
 
 /* Media Queries */
 
+/* Desktop Resolutions */
+
 @media screen and (min-width:1024px) {
-    body {
-        background: red;
+
+    /* Header & Navigation */
+
+    header {
+        display: grid;
+        grid-template-columns: 5% 50% 1fr 5%;
+        align-items: center;
     }
-    
+
+    .logo {
+        grid-column: 2 / 3;
+        font-size: 3vw;
+    }
+
+    .flex-container {
+        grid-column: 3 / 4;
+        background: unset;
+    }
+
+    .flex-container * {
+        background-color: unset;
+    }
+
+    .flex-container li > a {
+        color: black;
+        font-weight: 700;
+        font-size: 1.25em;
+        border: 3px dashed black;
+        background-color: var(--yellow);
+        padding: .5em;
+    }
 }
