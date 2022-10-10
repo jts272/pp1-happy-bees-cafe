@@ -289,7 +289,7 @@ input[type="submit"] {
 
     header {
         display: grid;
-        grid-template-columns: 5% 50% 1fr 5%;
+        grid-template-columns: 3% 50% 1fr 3%;
         align-items: center;
     }
 
@@ -310,9 +310,17 @@ input[type="submit"] {
     .flex-container li > a {
         color: black;
         font-weight: 700;
-        font-size: 1.25em;
+        font-size: 1.2em;
         border: 3px dashed black;
         background-color: var(--yellow);
         padding: .5em;
+    }
+
+    .current-page {
+        border-radius: unset;
+    }
+
+    .flex-container li > a:hover {
+        background-color: orange;
     }
 }
