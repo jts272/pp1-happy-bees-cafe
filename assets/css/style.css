@@ -32,12 +32,19 @@ body p {
 
 /* Header */
 
-#mainheader {
+.logo {
     font-family: Alatsi, Helvetica, sans-serif;
     text-transform: uppercase;
     text-align: center;
     text-shadow: .05ex .05ex white, .2ex .2ex var(--yellow);
     font-size: 5vw;
+    margin: 2% 0;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .flex-container * {
