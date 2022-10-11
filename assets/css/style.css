@@ -323,4 +323,9 @@ input[type="submit"] {
     .flex-container li > a:hover {
         background-color: orange;
     }
+
+    .desktop-current-page {
+        border-bottom: 5px solid black;
+        border-radius: 10px;
+    }
 }
