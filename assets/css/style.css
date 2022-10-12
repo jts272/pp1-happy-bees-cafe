@@ -357,6 +357,16 @@ input[type="submit"] {
         height: 60vh;
     }
 
+    /* Desktop Footer */
+
+    .footer i {
+        font-size: 2em;
+    }
+
+    .map-button {
+        padding: .5em;
+    }
+
     /* Desktop Footer User Feedback */
 
     footer i:hover {
