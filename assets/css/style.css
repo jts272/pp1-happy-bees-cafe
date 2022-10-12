@@ -289,7 +289,7 @@ input[type="submit"] {
 
     header {
         display: grid;
-        grid-template-columns: 3% 50% 1fr 3%;
+        grid-template-columns: 2% 50% 1fr 2%;
         align-items: center;
     }
 
@@ -310,10 +310,10 @@ input[type="submit"] {
     .flex-container li > a {
         color: black;
         font-weight: 700;
-        font-size: 1.2em;
+        font-size: 1.1em;
         border: 3px dashed black;
         background-color: var(--yellow);
-        padding: .5em;
+        padding: .3em;
     }
 
     .current-page {
