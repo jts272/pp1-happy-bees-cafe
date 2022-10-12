@@ -104,6 +104,7 @@ nav a {
     flex-flow: row wrap;
     justify-content: space-evenly;
     text-align: center;
+    align-items: center;
 }
 
 .footer table {
@@ -132,7 +133,6 @@ nav a {
 }
 
 .return-top {
-    width: 100%;
     text-align: end;
     padding: 1em;
 }
@@ -144,6 +144,7 @@ nav a {
 
 .return-top i {
     color: var(--yellow);
+    vertical-align: middle;
 }
 
 /* Menu Page */
