@@ -341,4 +341,11 @@ input[type="submit"] {
         padding: 3% 15%;
         border: .25em double gray;
     }
+
+    /* Hero Image */
+
+    .hero-container {
+        height: 60vh;
+    }
+
 }
