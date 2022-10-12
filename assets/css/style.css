@@ -139,7 +139,7 @@ nav a {
 
 .return-top a {
     text-decoration: none;
-    color: var(--yellow);
+    color: white;
 }
 
 .return-top i {
@@ -351,5 +351,20 @@ input[type="submit"] {
     .hero-container {
         height: 60vh;
     }
+
+    /* Desktop Footer User Feedback */
+
+    footer i:hover {
+        color: orange;
+    }
+
+    .map-button:hover {
+        background: orange;
+    }
+
+    div.return-top:hover {
+        color: orange;
+    }
+
 
 }
