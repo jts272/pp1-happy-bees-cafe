@@ -90,7 +90,7 @@ nav a {
 .hero-overlay:hover {
     transform: scale(1.2);
     transition: 250ms ease-in-out;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
 }
 
 /* About Us */
@@ -169,7 +169,7 @@ nav a {
     border: .5em ridge var(--lightwood);
     margin: .5em;
     padding: .5em;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .6);
 }
 
 .menu-chalkboard td {
@@ -409,6 +409,6 @@ input[type="submit"] {
     img:hover {
         transform: scale(1.2);
         transition: 333ms ease-in-out;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
     }
 }
