@@ -451,7 +451,7 @@ input[type="submit"] {
     }
 
     form {
-        width: 50vw;
+        width: 60vw;
         background: rgba(255, 255, 255, .8);
         margin: 2em;
         color: black;
@@ -461,12 +461,17 @@ input[type="submit"] {
     [type="tel"],
     [type="email"],
     [type="datetime-local"] {
-        width: 40%;
+        width: 33%;
     }
 
     input[type="submit"] {
         border: 1px solid black;
         padding: 1em;
+        width: 50%;
+    }
+
+    input[type="submit"]:hover {
+        background: orange;
     }
 
 }
