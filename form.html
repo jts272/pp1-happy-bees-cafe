@@ -46,7 +46,7 @@
                 <fieldset>
                     <legend>Delivery/Collection</legend>
                     <input type="radio" id="collection" name="deliverymethod" value="collection" required>
-                    <label for="collection">I want to collect my order from the cafe</label><br>
+                    <label for="collection">I want to collect my order from the cafe</label><br><br>
                     <input type="radio" id="delivery" name="deliverymethod" value="delivery">
                     <label for="delivery">I want delivery to the address below:</label><br><br>
                     <label for="address1">Address Line 1</label><br>
@@ -59,16 +59,16 @@
                 <fieldset>
                     <legend>Your Order</legend>
                     <label for="menuorder">Order from our Menu</label><br>
-                    <textarea name="menuorder" id="menuorder" placeholder="Which meals would you like? Include quantities and any extra sides/fillings..." rows="5"></textarea><br>
+                    <textarea name="menuorder" id="menuorder" placeholder="Which meals would you like? Include quantities and any extra sides/fillings..." rows="9"></textarea><br>
                     <label for="eventorder">Order for an event</label><br>
-                    <textarea name="eventorder" id="eventorder" placeholder="Let us know here if you want an event catering, such as a birthday party. Include theme, number of people etc..." rows="5"></textarea><br>
+                    <textarea name="eventorder" id="eventorder" placeholder="Let us know here if you want an event catering, such as a birthday party. Include theme, number of people etc... (Can be left blank if ordering from the menu)" rows="9"></textarea><br>
                     <label for="receivetime">Select Date/Time of Order</label><br>
                     <input type="datetime-local" id="receivetime" name="receivetime">
                 </fieldset>
                 <fieldset>
                     <legend>Payment and Order Placement</legend>
                     <input type="radio" id="cash" name="paymethod" value="cash" required>
-                    <label for="cash">I will pay cash on collection</label><br>
+                    <label for="cash">I will pay cash on collection</label><br><br>
                     <input type="radio" id="card" name="paymethod" value="card">
                     <label for="card">I will pay with card over telephone</label><br><br>
                     <input type="submit" value="Place your Order!">
