@@ -312,6 +312,12 @@ input[type="submit"] {
     font-size: 3em;
 }
 
+/* Viewability */
+
+.dark-bg-divider {
+    border-bottom: 2px solid white;
+}
+
 /* Media Queries */
 
 /* Desktop Resolutions */
@@ -435,6 +441,10 @@ input[type="submit"] {
         transition: 333ms ease-in-out;
         box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
     }
+
+    /* Desktop Form Page */
+
+
 }
 
 /* Tablet Resolutions */
