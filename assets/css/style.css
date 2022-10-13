@@ -444,6 +444,30 @@ input[type="submit"] {
 
     /* Desktop Form Page */
 
+    .form-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    form {
+        width: 50vw;
+        background: rgba(255, 255, 255, .8);
+        margin: 2em;
+        color: black;
+    }
+
+    input[type="text"],
+    [type="tel"],
+    [type="email"],
+    [type="datetime-local"] {
+        width: 40%;
+    }
+
+    input[type="submit"] {
+        border: 1px solid black;
+        padding: 1em;
+    }
 
 }
 
