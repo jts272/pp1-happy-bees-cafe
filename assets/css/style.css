@@ -320,6 +320,28 @@ input[type="submit"] {
 
 /* Media Queries */
 
+/* Tablet Resolutions */
+
+@media screen and (min-width: 768px) {
+
+    /* Gallery Interactivity */
+
+    .gallery-container {
+        padding: 2.5em;
+        grid-gap: 2em;
+    }
+
+    img {
+        transition: 333ms ease-in-out;
+    }
+
+    img:target {
+        transform: scale(1.2);
+        transition: 333ms ease-in-out;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
+    }
+}
+
 /* Desktop Resolutions */
 
 @media screen and (min-width: 1024px) {
@@ -474,25 +496,4 @@ input[type="submit"] {
         background: orange;
     }
 
-}
-
-/* Tablet Resolutions */
-
-@media screen and (min-width: 768px) {
-
-    /* Gallery Interactivity */
-
-    .gallery-container {
-        padding: 2.5em;
-        grid-gap: 2em;
-    }
-
-    img {
-        transition: 333ms ease-in-out;
-
-    img:target {
-        transform: scale(1.2);
-        transition: 333ms ease-in-out;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
-    }
 }
