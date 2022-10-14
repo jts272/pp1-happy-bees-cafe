@@ -3,9 +3,10 @@
 /* Box Model Control */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 /* Font Properties */
@@ -21,34 +22,33 @@ h2 {
 /* Colour Variables */
 
 :root {
-    --yellow: #f5d93d;
-    --lightwood: #f2e7b9;
     --darkwood: #7a5b31;
+    --lightwood: #f2e7b9;
+    --yellow: #f5d93d;
 }
 
 /* Header */
 
 .logo {
-    font-family: Alatsi, Helvetica, sans-serif;
-    text-transform: uppercase;
+    font: 5vw Alatsi, Helvetica, sans-serif;
+    margin: 2% 0; 
     text-align: center;
     text-shadow: .05ex .05ex white, .2ex .2ex var(--yellow);
-    font-size: 5vw;
-    margin: 2% 0;  
+    text-transform: uppercase;
 }
 
 .logo a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 .flex-container * {
+    align-items: center;
+    background: black;
+    color: white;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
-    background-color: black;
-    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -67,30 +67,29 @@ nav a {
 /* Hero Image */
 
 .hero-container {
-    height: 50vh;
     background: url(../images/hero-image.png) no-repeat center;
     background-size: cover;
+    height: 50vh;
     position: relative;
 }
 
 .hero-overlay {
     background: black;
+    border: .5em ridge var(--lightwood);
     color: white;
     display: inline-block;
-    position: absolute;
-    right: 5%;
-    bottom: 5%;
-    padding: .5em;
-    border: .5em ridge var(--lightwood);
     margin: .5em;
     padding: .5em;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
     transition: 333ms ease-in-out;
 }
 
 .hero-overlay:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
     transform: scale(1.2);
     transition: 250ms ease-in-out;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
 }
 
 /* About Us */
@@ -102,14 +101,14 @@ nav a {
 
 /* Footer */
 
-.footer { 
+.footer {
+    align-items: center; 
     background: black;
     color: white;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     text-align: center;
-    align-items: center;
 }
 
 .footer table {
@@ -117,34 +116,35 @@ nav a {
 }
 
 .footer i {
+    color: white;
     font-size: 3em;
     padding: .25em;
     text-decoration: none;
-    color: white;
+    
 }
 
 .map-button {
     background: white;
     border-radius: 40px;
-    padding: 1em;
     margin: auto .5em;
+    padding: 1em;
 }
 
 .map-button a {
     color: black;
-    text-decoration: none;
-    padding: 1em;
     font-weight: 600;
+    padding: 1em;
+    text-decoration: none;
 }
 
 .return-top {
-    text-align: end;
     padding: 1em;
+    text-align: end;
 }
 
 .return-top a {
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .return-top i {
@@ -155,21 +155,21 @@ nav a {
 /* Menu Page */
 
 .menu-flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    flex: 1 1 100%;
-    justify-content: center;
-    background-color: var(--yellow);
     align-items: center;
+    background: var(--yellow);
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .menu-chalkboard {
     background: black;
-    color: white;
     border: .5em ridge var(--lightwood);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .6);
+    color: white;
     margin: .5em;
     padding: .5em;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, .6);
 }
 
 .menu-chalkboard td {
@@ -197,16 +197,16 @@ li {
 /* Gallery Page */
 
 .gallery-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: .5em;
-    padding: .5em;
     background: var(--yellow);
+    display: grid;
+    grid-gap: .5em;
+    grid-template-columns: 1fr 1fr;
+    padding: .5em;
 }
 
 .gallery-container > div {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .gallery-container > div > img {
@@ -240,36 +240,35 @@ fieldset {
 }
 
 textarea {
-    width: 100%;
     padding: .5em;
+    width: 100%;
 }
 
-input[type="text"],
-[type="tel"],
+input[type="datetime-local"],
 [type="email"],
-[type="datetime-local"] {
+[type="tel"],
+[type="text"] {
+    font: Nunito, sans-serif;
     padding: .5em;
     width: 100%;
-    font-family: Nunito, sans-serif;
 }
 
-::placeholder,
-input[type="datetime-local"] {
-    font-family: Nunito, sans-serif;
-    font-size: 1.2em;
+
+input[type="datetime-local"],
+::placeholder {
+    font: 1.2em Nunito, sans-serif;
 }
 
 input[type="submit"] {
-    width: 100%;
     background: var(--yellow);
     border: 0;
-    padding: 1.5em;
     border-radius: 50px;
-    font-family: inherit;
-    font-size: 1.2em;
-    margin: auto;
-    cursor: pointer;
     color: black;
+    cursor: pointer;
+    font: 1.2em inherit;
+    margin: auto;
+    padding: 1.5em;
+    width: 100%;
 }
 
 /* Thank You Page */
