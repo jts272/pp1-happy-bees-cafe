@@ -6,7 +6,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 /* Font Properties */
@@ -81,14 +80,14 @@ nav a {
     margin: .5em;
     padding: .5em;
     position: absolute;
-    bottom: 5%;
     right: 5%;
-    transition: 333ms ease-in-out;
+    bottom: 5%;
+    transition: 250ms ease-in-out;
 }
 
 .hero-overlay:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: 250ms ease-in-out;
 }
 
@@ -120,7 +119,6 @@ nav a {
     font-size: 3em;
     padding: .25em;
     text-decoration: none;
-    
 }
 
 .map-button {
@@ -248,11 +246,10 @@ input[type="datetime-local"],
 [type="email"],
 [type="tel"],
 [type="text"] {
-    font: Nunito, sans-serif;
+    font-family: Nunito, sans-serif;
     padding: .5em;
     width: 100%;
 }
-
 
 input[type="datetime-local"],
 ::placeholder {
@@ -265,7 +262,8 @@ input[type="submit"] {
     border-radius: 50px;
     color: black;
     cursor: pointer;
-    font: 1.2em inherit;
+    font-size: 1.2em;
+    font-weight: inherit;
     margin: auto;
     padding: 1.5em;
     width: 100%;
@@ -275,10 +273,10 @@ input[type="submit"] {
 
 .thankyou-image {
     background: rgba(0, 0, 0, .6) url(../images/foodprep.webp) no-repeat center;
-    background-size: cover;
     background-blend-mode: overlay;
-    width: 100%;
+    background-size: cover;
     height: 90vh;
+    width: 100%;
 }
 
 /* 404 Page */
@@ -292,18 +290,17 @@ input[type="submit"] {
 }
 
 .content-404 {
-    color: white;
     border: 2px solid white;
     border-radius: 25px;
-    padding: 1em;
-    text-align: center;
+    color: white;
     display: flex;
     flex-flow: column wrap;
-    display: inline-block;
+    padding: 1em;
     position: absolute;
     top: 1em;
-    left: 1em;
     right: 1em;
+    left: 1em;
+    text-align: center;
 }
 
 .home-icon-404 {
@@ -326,8 +323,8 @@ input[type="submit"] {
     /* Gallery Interactivity */
 
     .gallery-container {
-        padding: 2.5em;
         grid-gap: 2em;
+        padding: 2.5em;
     }
 
     img {
@@ -335,9 +332,9 @@ input[type="submit"] {
     }
 
     img:target {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
         transform: scale(1.2);
         transition: 333ms ease-in-out;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
     }
 }
 
@@ -348,19 +345,19 @@ input[type="submit"] {
     /* Header & Navigation */
 
     header {
+        align-items: center;
         display: grid;
         grid-template-columns: 2% 50% 1fr 2%;
-        align-items: center;
     }
 
     .logo {
-        grid-column: 2 / 3;
         font-size: 3vw;
+        grid-column: 2 / 3;
     }
 
     .flex-container {
-        grid-column: 3 / 4;
         background: unset;
+        grid-column: 3 / 4;
     }
 
     .flex-container * {
@@ -368,11 +365,11 @@ input[type="submit"] {
     }
 
     .flex-container li > a {
-        color: black;
-        font-weight: 700;
-        font-size: 1.1em;
-        border: 3px dashed black;
         background-color: var(--yellow);
+        border: 3px dashed black;
+        color: black;
+        font-size: 1.1em;
+        font-weight: 700;
         padding: .3em;
     }
 
@@ -392,14 +389,14 @@ input[type="submit"] {
     /* Text Formatting */
 
     body {
-        font-weight: 600;
         font-size: 1.2rem;
+        font-weight: 600;
     }
 
     .page-blurb {
-        text-align: center;
-        padding: 3% 15%;
         border: .25em ridge var(--darkwood);
+        padding: 3% 15%;
+        text-align: center;
     }
 
     /* Hero Image */
@@ -428,15 +425,15 @@ input[type="submit"] {
         background: orange;
     }
 
-    div.return-top:hover {
+    .return-top:hover {
         color: orange;
     }
 
     /* Desktop Gallery Page */
 
     .gallery-container {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 2em;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 2em 5em;
     }
 
@@ -458,9 +455,9 @@ input[type="submit"] {
     }
 
     img:hover {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
         transform: scale(1.2);
         transition: 333ms ease-in-out;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, .6);
     }
 
     /* Desktop Form Page */
@@ -472,16 +469,16 @@ input[type="submit"] {
     }
 
     form {
-        width: 60vw;
         background: rgba(255, 255, 255, .8);
-        margin: 2em;
         color: black;
+        margin: 2em;
+        width: 60vw;
     }
 
-    input[type="text"],
-    [type="tel"],
+    input[type="datetime-local"],
     [type="email"],
-    [type="datetime-local"] {
+    [type="tel"],
+    [type="text"] {
         width: 33%;
     }
 
@@ -494,5 +491,4 @@ input[type="submit"] {
     input[type="submit"]:hover {
         background: orange;
     }
-
 }
