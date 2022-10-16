@@ -98,6 +98,10 @@ nav a {
     padding: 1em;
 }
 
+table th:nth-child(2) {
+    display: none;
+}
+
 /* Footer */
 
 .footer {
