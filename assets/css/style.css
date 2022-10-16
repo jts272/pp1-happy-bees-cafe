@@ -336,13 +336,13 @@ input[type="submit"] {
     }
 
     img {
-        transition: 333ms ease-in-out;
+        transition: 250ms ease-in-out;
     }
 
     img:target {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
         transform: scale(1.1);
-        transition: 333ms ease-in-out;
+        transition: 250ms ease-in-out;
     }
 }
 
@@ -465,7 +465,7 @@ input[type="submit"] {
     img:hover {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
         transform: scale(1.1);
-        transition: 333ms ease-in-out;
+        transition: 250ms ease-in-out;
     }
 
     /* Desktop Form Page */
