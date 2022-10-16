@@ -2,7 +2,9 @@
 
 ![Mockup of site displayed on different devices](docs/mockup.png)
 
-### [Click here to view the live web application!](https://jts272.github.io/pp1-happy-bees-cafe/index.html)
+### [Click here to view the live web application!](https://jts272.github.io/pp1-happy-bees-cafe/index.html) 
+
+(Middle click or right click to open in a new tab)
 
 ---
 
