@@ -75,7 +75,15 @@ By the end of this document, we will have covered:
 
 Happy Bee's Cafe is a friendly, family run business that offers a seated cafe experience, as well as takeaway and local delivery orders. The website aims to be a complete, up to date hub for what the business offers. Users can expect to find all pertinent information such as menus and pricing, as well as how to get in touch and follow the latest updates on social channels.
 
-The site is built from the ground up to be fully responsive with a 'mobile-first' design philosophy. The appearance and functionality of the site will be built with progressive advancement in mind. This ensures that the user has a positive emotional experience interacting with the site, regardless of their chosen device. [Google](https://developers.google.com/search/mobile-sites/mobile-first-indexing) index and rank pages based on the primarily mobile version so this design choice gears the site to be more SEO-friendly.
+The site is built from the ground up to be fully responsive with a 'mobile-first' design philosophy. The appearance and functionality of the site will be built with progressive advancement in mind. This ensures that the user has a positive emotional experience interacting with the site, regardless of their chosen device. [Google](https://developers.google.com/search/mobile-sites/mobile-first-indexing) index and rank pages based on the mobile version so this design choice gears the site to be more SEO-friendly.
+
+The CARE principles are a core part of the development process. The application is for a business with an existing branding and client base, so the website leveraged this in its design. I decided to create a site that is **cohesive** with the interior styling of the cafe itself. This idea is further expounded in the Design Process section.
+
+**Accessibility** should be at the core of any web application. I want the full features of the site to be useable for as many users as possible. This principle is reflected through use of properly contrasting colours and effective use of accessiblity features of HTML5. Web accessiblity tools have been used through design and testing to ensure compliance.
+
+**Responsiveness** is table stakes for web design in the current era, as espoused by web designer [Ethan Marcotte](https://www.youtube.com/watch?v=4twHFfU44uE). I want to provide the user with an experience that is not compromised by their device. To this end, I have chosen a [Mobile First Design](https://www.youtube.com/watch?v=JcaX60ZscgA) (MFD) for the application. The design process will further explain my approach.
+
+Tying the above concepts together is the focus on keeping the focus of the application **essential**. In short, what needs to be there *is* there and anything which does not aid the aims of the application is discarded. I have found this philosophy to be at the heart of MFD as there is less screen real-estate for overly elaborate features and designs.
 
 ### User Stories
 
@@ -100,6 +108,8 @@ The website exists for the benefit of the business owners, thier current custome
 
 - Frequent Visitor Goals:
   - To be able to follow the cafe's social media channels to connect further
+
+The cafe is open from morning to early afternoon. It is situated on a busy road on the outskirts of Halifax. Customers coming in on a typical day could include local school pupils, passing tradespeople or an older couple for lunch. It serves a broad range of people so the website's design and values must cater to this.
 
 ---
 
