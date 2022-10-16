@@ -1,9 +1,32 @@
 # Happy Bee's Cafe Website
-This is a website for the Happy Bee's Cafe in Halifax, West Yorkshire. The website is fully responsive to users on a range of different devices, coded in HTML5 and CSS3. 
 
-A link to the live webpage can be found here: (www...)
+![Mockup of site displayed on different devices](docs/mockup.png)
 
-(insert mock up image of site here)
+### [Click here to view the live web application!](https://jts272.github.io/pp1-happy-bees-cafe/index.html)
+
+---
+
+Welcome to Happy Bee's Cafe!
+
+This documentation covers the interactive front-end web application for a cafe based in Halifax, West Yorkshire. It is built entirely with HTML5 and CSS3 for educational purposes, with permission and zero compensation.
+
+Throught development of the project, I bore in mind my principles of CARE:
+
+- Cohesive
+- Accessible
+- Responsive
+- Essential
+
+We will discover how these guiding principles formed the basis of my first web application project to create an appealing, logical and valuable product.
+
+By the end of this document, we will have covered:
+
+- UX (User Experience) development
+- Testing of the application throughout development, implementation and deployment stages
+- Deployment method to a cloud-based platform (GitHub Pages)
+- Code structure and organization to maximize maintainability for the future
+- Version control process
+- Development learning opportunities and ideas for future implementations
 
 ---
 
