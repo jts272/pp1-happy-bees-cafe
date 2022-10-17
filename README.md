@@ -319,15 +319,81 @@ I would test the styling of my items and iterate to ensure I got the desired pre
 
 Links were tested across pages. External links were tested to open a new browser tab. The form was tested to ensure that the browser recognized which elements were required, and that radio buttons were grouped correctly to prevent multiple selections. I tested the completed form to ensure it would send users to the Thank You Page upon completion.
 
-Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid.
+Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website url in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
 
 ## Validation Testing
-- HTML
-  - tbw
-- CSS
-  - tbw
-- WAVE
-  - tbw
+- HTML: [WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input+with_options)
+  
+  <details>
+  <summary>Index</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Menu</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Gallery</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Form</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Thank You</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>404</summary>
+  insert image here
+  </details>
+  
+
+- CSS: [W3C CSS Validation Service (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  
+  <details>
+  <summary>Stylesheet</summary>
+  insert image here
+  </details>
+  
+- Acessibility: [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) ~ [Browser Extension Available](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+  
+  <details>
+  <summary>Index</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Menu</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Gallery</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Form</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>Thank You</summary>
+  insert image here
+  </details>
+
+  <details>
+  <summary>404</summary>
+  insert image here
+  </details>
+
 - Mobile-Friendly Test
   - tbw
 - Lighthouse
