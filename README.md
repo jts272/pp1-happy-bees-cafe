@@ -125,10 +125,23 @@ I followed the 5 planes of UX to determine the course of the project before ever
 - Skeleton
 - Surface
 
+### Strategy
+
 The strategy was to keep the content relevant to those who would use it and to serve the needs of the business. I conducted a brief stakeholder meeting of sorts with the cafe owner. I learned a bit more about the business and its customers to make the copy of the website in line with customer's expectations.
 
 As the cafe did not have a website before, nor was there much competition in the immediate vicinity, I looked online to conduct an existing product audit. I took inspiration from [The Pottery Cafe](https://thepotterycafe.co.uk/). Although different in nature from a conventional cafe, I found the general page layout, footer format and gallery layout to be of a professional standard that I should be aiming for. The site also responded well to resizing of the browser window.
 
+The B2C format best describes the business style. Although food orders and catering is available for business, they are still customers in the conventional sense. I wanted to project a friendly image that mirrors the cafe's family friendly reputation.
+
+### Scope
+
+It was essential to determine the scope of the project from the beginning - what is in and what is out? The function of the site from different perspectives were detailed in the user stories and the application must meet these needs in form and function.
+
+The functional requirements are addressed in the [features](#features) section. The principle of essentialism helped to guide the project in the right direction, preventing scope creep from being a threat. As my first web application especially, iteration and refinement was a key part of the design process as I was learning and improving as the project progressed. I feel that the needs of the project were completely satisfied.
+
+### Structure
+
+At this level, I looked at the organization of content and features. This entailed how that pages were structured and how the user would navigate them. Interaction Design (IXD) was at the forefront of this design phase. Users have expectations for how to navigate websites on their chosen device. The key was to leverage their expectations. The flow of pages is consistency and no luck is involved with how the user may interact with the application. Examples of this include having the body text on the homepage 'below the fold' to encourage the user to scroll down to read more after the hero image captures their attention. For desktop users, social calls to action change colour on mouse hover to highlight where they are and that action can be taken.
 
 ### Wireframes
 
