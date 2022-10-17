@@ -229,6 +229,24 @@ Stock imagery was used from [Pexels](https://www.pexels.com/) for page backgroun
 
 ## Features:
 
+In determining the [scope](#scope) of the project, I planned to use 4 pages as the core of the site:
+
+- Homepage - Sets the scene, shows important information of opening times. A brief introduction to the business and invitations to explore the rest of the site or user reviews on an external webpage.
+
+- Menu - A fundamental feature of a cafe. Contains the full menu as presented on the cafe's own printed media. Users would expect to find the most up to date pricing here.
+
+- Gallery - After browsing the menu, the user's appetite would be whetted to see the food on offer. I would select a broad range of different food to showcase the standards and variety on offer.
+
+- Order Form - Give users the option to interact with the business directly by placing an order. The form would follow a logical flow to guide users to their purchase.
+
+In order to ensure the user is given proper feedback to confirm their actions, 2 further pages would need to be established:
+
+- Thank You Page - Upon sucessful completion of the form, it is essential that the user has their input confirmed.
+
+- 404 Page - In the event of a browsing error, this page playfully informs the user that the page cannot be found and offers to guide them safely back to the homepage.
+
+Here we will explore the webpages in further detail:
+
 ### Homepage:
 - Header
   - The company name and logo is featured prominently. As the user would expect, clicking this navigates back to the homepage.
@@ -239,7 +257,8 @@ Stock imagery was used from [Pexels](https://www.pexels.com/) for page backgroun
 - About Us
   - Here is detailed relevant information about what the business offers. The aim is to make the user feel positive and welcomed. The potential customer should find that they will be well catered to and that this is a place they would be happy to visit.
 - Footer
-  - The page finishes with valuable information such as address, contact information and social links. There are calls to action for the user to connect with the business by finding the location on Google Maps or to follow the Facebook page. An easily accessible button to return to the top affords mobile users a swift viewing experience by sending them back to the navigational links.
+  - The page finishes with valuable information such as address, contact information and social links. There are calls to action for the user to connect with the business by finding the location on Google Maps or to follow the Facebook page. 
+  - An easily accessible button to return to the top affords mobile users a swift viewing experience by sending them back to the navigational links.
 
 ---
 
@@ -250,14 +269,31 @@ Stock imagery was used from [Pexels](https://www.pexels.com/) for page backgroun
 ### Menu page:
 - Menus
   - Meals and pricing are displayed clearly and unambiguously.
+  - The Menus are split up to reflect the paper menus available from the cafe. They are styled to resemble chalkboards hanging from the wall in CSS.
+  - The menu boards are flexible items that will wrap to fit the user's screen whilst retaining the integrity of the content.
 
 ### Gallery page:
 - Image Gallery
   - A responsive image gallery shows the user the variety and quality of the food, as well as the seating environment.
+  - A 2 column layout for mobile and an interactive 4 column layout for desktop. Desktop gallery styled in CSS to resemble picture frames. On hover, the picture rises with a shadow effect to simulate taking a photo frame off the wall.
 
 ### Order page:
 - Order Form
   - This form gives the user a way to interact in placing a custom order. Wether for a workplace lunch or a fully catered event, the customer can send their request to be prepared.
+  - Responsive and retains high contrast regardless of layout.
+  - Certain elements are required for the form to complete.
+  - Sends user to Thank You Page upon sucessful completion.
+
+### Thank You Page:
+- Thank You Message
+  - Informs the user that their form has sucessfully completed and thanks them for their input.
+  - There is no back end set up in this application for the form, so the user is informed that their order cannot be fulfilled at the moment so invites them to come to the cafe instead.
+
+### 404 Page:
+- Guide to Homepage
+  - A simple page that informs the user of the 404 error in a friendly manner.
+  - A picture of a bee on a sunflower creates a positive vibe and keeps emotional reaction positive in spite of error.
+  - A clear offer to navigate back to the homepage.
 
 ---
 
