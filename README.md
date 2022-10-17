@@ -143,7 +143,40 @@ The functional requirements are addressed in the [features](#features) section. 
 
 At this level, I looked at the organization of content and features. This entailed how that pages were structured and how the user would navigate them. Interaction Design (IXD) was at the forefront of this design phase. Users have expectations for how to navigate websites on their chosen device. The key was to leverage their expectations. The flow of pages is consistency and no luck is involved with how the user may interact with the application. Examples of this include having the body text on the homepage 'below the fold' to encourage the user to scroll down to read more after the hero image captures their attention. For desktop users, social calls to action change colour on mouse hover to highlight where they are and that action can be taken.
 
+### Skeleton
+
+This is where form is given to function. For the user, this is represented by the UI. I kept each page relevant to its stated content. I followed the [Hick-Hyman Law](https://en.wikipedia.org/wiki/Hick%27s_law) and did not want to overwhelm the user with needless choices and interactions.
+
+Navigation is intuitive, regardless of device. The mobile site uses a navbar that contrasts nicely with the header logo and runs across the width of the screen. The desktop version uses the convention of having the header logo and navigation links on the same line, left-to-right. In both instances, the current page is highlighted to the user and the desktop site makes use of the mouse hover function to clearly show the user which link they are about to click.
+
+The footer contains social calls to action that are represented clearly. A back to the top button is featured to keep browsing and scrolling efficient and effortless.
+
+Wireframes were drafted as a general guide for the structure of pages across devices. This expanded on in more detail in its relevant [section](#wireframes).
+
+### Surface
+
+This is where the design culminates. Does it smell like value? By following the CARE principles and stages of design, the application forms a cohesive product that meets its needs. This comes together through the features, use of consistent colour/typography and imagery as detailed below.
+
+## Practical Elements
+
 ### Wireframes
+
+I used [Balsamiq](https://balsamiq.com/) to draft mockups of how I wanted the fundamental pages of the website to be laid out.
+
+<details>
+<summary>Homepage:</summary>
+insert wireframes image here
+</details>
+
+<details>
+<summary>Menu Page:</summary>
+insert wireframes image here
+</details>
+
+<details>
+<summary>Gallery Page:</summary>
+insert wireframes image here
+</details>
 
 ### Typography
 
