@@ -178,11 +178,52 @@ insert wireframes image here
 insert wireframes image here
 </details>
 
+This served as template for my markup and styling, creating a clear vision for me to start with. Due to the rough nature of the sketches, iteration is to be expected. In testing the application throught development, changes were made where it better suited the core vision.
+
 ### Typography
+
+As I was creating a webpage for a preexisting company, I wanted it to reflect the branding already established. I chose to have a header font that matches the masthead outside the cafe:
+
+<details>
+<summary>Cafe Logo</summary>
+insert cafe banner image here
+</details>
+
+I initially used various [fond finders](https://www.google.com/search?q=font+finder&ei=QydNY_68FcWw8gLziqzQBQ&ved=0ahUKEwi-6u2igOf6AhVFmFwKHXMFC1oQ4dUDCA4&uact=5&oq=font+finder&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAELEDEJECMgUIABCRAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsIABCABBCxAxCDAUoECE0YAUoECEEYAEoECEYYAFAAWIoFYLYGaABwAXgAgAFoiAG6A5IBAzUuMZgBAKABAcABAQ&sclient=gws-wiz), but results were not satisfactory. Instead, I used [Google Fonts](https://fonts.google.com/). I entered the cafe's name in all caps in the preview window and selected the font that most closely matched. The drop shadow effects were later styled in CSS.
+
+For the body text, I again relied on Google fonts. I selected a sans-serif font for easy reading across devices. I wanted a rounder, more 'friendly' font to reflect the atmosphere of the cafe. Comic Sans serves its purpose on printed media, such as the cafe's menus but is usually a cause for distraction if used on a professional website, so I avoided using this.
+
+<details>
+<summary>Paper Menu</summary>
+insert paper menu image here
+</details>
 
 ### Colour Palette
 
+I took various images of the cafe after my initial project meeting. I used a clear shot of an interior wall as both my hero image and colour palette. Although it is easy enough to select a generated 'off-the-shelf' colour palette, I wanted to create a cohesive experience from screen to real-world premises.
+
+In keeping with the bee branding, black and yellow is to be expected. I would naturally make use of white for contrast. By importing my hero image photo to [Coolors](https://coolors.co/), I was able to pinpoint the colours I wanted to use, down to the exact HEX or RGB code. Here are the colours I selected:
+
+<details>
+<summary>Colour Palette</summary>
+insert colour palette image here
+</details>
+
+I ended up with a simple selection of colours: Black, White, Yellow, Light Brown and Dark Brown. The brown tones were taken from the different shades of wood visible in the picture. They were used effectively in the 'picture-frame' motif that is used across pages.
+
 ### Imagery
+
+Imagery consists of:
+
+- Hero Image
+- Gallery Images
+- Stock images for certain page backgrounds
+
+The hero image is simple and geometric, but sets the scene and colour tone for the user. This gives them information of what to expect from the site and the seated experience quickly, without being overwhelming.
+
+The Gallery mainly consists of image, used with permission, from the cafe's [Facebook Page](https://www.facebook.com/people/Happy-Bees-Cafe/100057339854373/). Thier function is to show users that there is a broad range of high quality food available, with generous portions and a home cooked feel. Also shown are images from charity events hosted by the cafe and seasional spreads such as Easter Eggs.
+
+Stock imagery was used from [Pexels](https://www.pexels.com/) for page backgrounds that did not have much body content. This keeps the user interested, whilst reinforcing the cooking and bee themes. The stock images were combined with a transparent black overlay in CSS to keep contrast high and the user focussed on the relevant input sections.
 
 ---
 
