@@ -258,7 +258,7 @@ Here we will explore the webpages in further detail:
   - Here is detailed relevant information about what the business offers. The aim is to make the user feel positive and welcomed. The potential customer should find that they will be well catered to and that this is a place they would be happy to visit.
 - Footer
   - The page finishes with valuable information such as address, contact information and social links. There are calls to action for the user to connect with the business by finding the location on Google Maps or to follow the Facebook page. 
-  - An easily accessible button to return to the top affords mobile users a swift viewing experience by sending them back to the navigational links.
+  - An easily accessible button to return to the top affords users a swift viewing experience by sending them back to the navigational links at the top of the page.
 
 ---
 
@@ -297,7 +297,7 @@ Here we will explore the webpages in further detail:
 
 ---
 
-## Testing
+## Development and Testing
 tbw
 
 ## Validation Testing
@@ -305,8 +305,17 @@ tbw
   - tbw
 - CSS
   - tbw
+- WAVE
+  - tbw
+- Mobile-Friendly Test
+  - tbw
+- Lighthouse
+  - tbw
 
 ---
+
+## Version Control and Code Maintainablity
+tbw
 
 ## Unfixed Bugs
 tbw
