@@ -100,6 +100,7 @@ The website exists for the benefit of the business owners, thier current custome
   - To see what food is on offer
   - To view the price of the food on offer
   - To see the eating in area
+  - To see that there is an order function
 
 - Returning Visitor Goals:
   - To have the ability to place customised orders for collection
@@ -108,12 +109,26 @@ The website exists for the benefit of the business owners, thier current custome
 
 - Frequent Visitor Goals:
   - To be able to follow the cafe's social media channels to connect further
+  - To use the order form to be able to place an order for event catering
 
 The cafe is open from morning to early afternoon. It is situated on a busy road on the outskirts of Halifax. Customers coming in on a typical day could include local school pupils, passing tradespeople or an older couple for lunch. It serves a broad range of people so the website's design and values must cater to this.
 
 ---
 
 ## Design Process
+
+I followed the 5 planes of UX to determine the course of the project before ever writing a line of code. The 5 planes are as follows:
+
+- Strategy
+- Scope
+- Structure
+- Skeleton
+- Surface
+
+The strategy was to keep the content relevant to those who would use it and to serve the needs of the business. I conducted a brief stakeholder meeting of sorts with the cafe owner. I learned a bit more about the business and its customers to make the copy of the website in line with customer's expectations.
+
+As the cafe did not have a website before, nor was there much competition in the immediate vicinity, I looked online to conduct an existing product audit. I took inspiration from [The Pottery Cafe](https://thepotterycafe.co.uk/). Although different in nature from a conventional cafe, I found the general page layout, footer format and gallery layout to be of a professional standard that I should be aiming for. The site also responded well to resizing of the browser window.
+
 
 ### Wireframes
 
