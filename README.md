@@ -399,43 +399,52 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   
   <details>
   <summary>Stylesheet</summary>
-  insert image here
+  <img src="docs/val-css.png">
   </details>
   
 ### Acessibility: [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) ~ [Browser Extension Available](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
   
   <details>
   <summary>Index</summary>
-  insert image here
+  <img src="docs/wave-index.png">
   </details>
 
   <details>
   <summary>Menu</summary>
-  insert image here
+  <img src="docs/wave-menu.png">
   </details>
 
   <details>
   <summary>Gallery</summary>
-  insert image here
+  <img src="docs/wave-gallery.png">
   </details>
 
   <details>
   <summary>Form</summary>
-  insert image here
+  <img src="docs/wave-form.png">
   </details>
 
   <details>
   <summary>Thank You</summary>
-  insert image here
+  <img src="docs/wave-thankyou.png">
   </details>
 
   <details>
   <summary>404</summary>
-  insert image here
+  <img src="docs/wave-404.png">
   </details>
 
+  I received 1 consistent WAVE alert:
+
+  <details>
+  <summary>Alert</summary>
+  <img src="docs/wave-alert.png">
+  </details>
+
+  Due to there being home links on both the logo and nav elements, it flagged as a redundant link in this test. However, it would be expected by the user that clicking on either element takes them to the homepage so no changes were made.  
+
 ### [Mobile-Friendly Test:](https://search.google.com/test/mobile-friendly)
-  - tbw
+  - https://search.google.com/test/mobile-friendly/result?id=fuNWWz3m1mBr-W5qMdtvww
 
 ### Lighthouse (Open DevTools > Lighthouse)
   - tbw
