@@ -551,6 +551,8 @@ The deployment platform for this project was GitHub Pages. This was a simple pro
 
 By following these steps, the contents of the repository is published live to the internet. The provided url can then be accessed from any device's browser.
 
+![github pages deployment](docs/github-pages.png)
+
 ## Bugs
 
 The application meets the demands of its clients and users. Functionality of the application is as intended through thorough testing. Along the way, there were a few bugs that were addressed to meet the goals of the project:
@@ -559,7 +561,7 @@ The application meets the demands of its clients and users. Functionality of the
 
 <details>
 <summary>Footer Bug</summary>
-insert image here
+<img src="docs/footer-align.png">
 </details>
 
 - Solution [Adjust margin shorthand values](https://github.com/jts272/pp1-happy-bees-cafe/commit/efbb25b02ba74b7136032dd24b3b8639b3c722c5#comments)
@@ -568,7 +570,7 @@ insert image here
 
 <details>
 <summary>Form Bug</summary>
-insert image here
+<img src="docs/form-bug.png">
 </details>
 
 - Solution [Adjust width % values of input elements at 1024px width](https://github.com/jts272/pp1-happy-bees-cafe/commit/967909d374a98a13c362fda9fbc2ff143ed8dce5#comments)
@@ -577,7 +579,7 @@ insert image here
 
 <details>
 <summary>Opening Times Bug</summary>
-insert image here
+<img src="docs/empty-table-bug.png">
 </details>
 
 - Solution [Add text to second table header and set display: none; by CSS](https://github.com/jts272/pp1-happy-bees-cafe/commit/596b666d5867cc3e319d85b5bfd4227f8b6bb096#comments)
