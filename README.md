@@ -329,16 +329,36 @@ I would test the styling of my items and iterate to ensure I got the desired pre
 
 Links were tested across pages. External links were tested to open a new browser tab. The form was tested to ensure that the browser recognized which elements were required, and that radio buttons were grouped correctly to prevent multiple selections. I tested the completed form to ensure it would send users to the Thank You Page upon completion.
 
-Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website url in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
+Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website URL in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
 
 ### User Stories Testing
 
 | Client Goal | Facilitated By | Result |
 | --- | --- | --- |
 | Customers find the cafe | Address and Google Map CTA in footer | :heavy_check_mark: |
-| Customers can place an order | Functional form and telephone number provided | :heavy_check_mark: |
+| Customers can place an order | Functional form, menu and telephone number provided | :heavy_check_mark: |
 | Project a positive brand image | Cohesive styling and inviting language in copy | :heavy_check_mark: |
 | Keep customers up to date | Up to date opening times and menu prices prominent | :heavy_check_mark: |
+
+| 1st Time Visitor Goal | Facilitated By | Result |
+| --- | --- | --- |
+| To find the cafe easily | Address and Google Map CTA in footer | :heavy_check_mark: |
+| To see the food available | Easy access to full menu from navbar | :heavy_check_mark: |
+| View pricing | All prices listed next to menu items | :heavy_check_mark: |
+| See the actual cafe | Hero image and gallery contain interior and exterior shots | :heavy_check_mark: |
+| To see they can order online | Order page featured on navbar | :heavy_check_mark: |
+
+| Returning Visitor Goal | Facilitated By | Result |
+| --- | --- | --- |
+| Place order for collection | Form allows for order collection | :heavy_check_mark: |
+| Place order for delivery | Form allows for delivery address to be specified | :heavy_check_mark: |
+| Find up to date pricing info | Up to date pricing in menu so they don't have to find out when they get there | :heavy_check_mark: |
+
+| Frequent Visitor Goal | Facilitated By | Result |
+| --- | --- | --- |
+| Connect with the cafe on other channels | Social CTAs for Facebook and email interaction and link to review page on homepage | :heavy_check_mark: |
+| Order for catered event | Order form provides text area for special orders for events | :heavy_check_mark: |
+
 
 ## Validation Testing
 
