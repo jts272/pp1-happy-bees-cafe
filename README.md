@@ -490,11 +490,41 @@ I am happy that the application met its goals in full. However, there is always 
 - Implementing a Favicon. Not a make or break feature as GitHub Pages provides a generic one, but would be expected for sites hosted independently.
 
 ## Devices and Technologies Used
-tbw
 
----
+### Hardware
 
-## Credits
-tbw
+- Lenovo Windows 10 Home 14" Laptop - 1920x1080, 100% Scaling
+- Dell LCD Monitor - 1280x1024
+- LG CRT Monitor - 1024x768
+- Apple iPhone 6s
+
+### Software
+
+- Google Chrome - Majority of coding/testing and extensive use of DevTools and device simulation
+- Mozilla Firefox Developer Edition - More for desktop development and robust grid viewing tools
+- MS Paint - Resizing images
+- GIMP - Exporting images to WebP format
+
+### Browser Extensions
+
+- GitPod - To open templates into a workspace
+- QR Code Generator - Quickly access site on real mobile hardware
+- WAVE - Quickly audit accessibility features
+
+### Platforms
+
+- GitPod - The workspace in which the application was written
+- GitHub - To store and host my code and application
+- CodePen - To practice new coding ideas in a safe environment with instant feedback
+
+## Credits and Resources
+
+- Code Institute - For providing my primary learning platform and [template](https://github.com/Code-Institute-Org/gitpod-full-template), which is the foundation of this project
+- W3Schools - My first port of call for furthering my understanding of basic HTML and CSS functionality
+- CSS in easy steps 4th ed. by Mike McGrath - invaluable in getting my understanding of layout and styling up to speed
+- SEO for Dummies by Peter Kent - Skimmed through pertinent sections to get a basic understanding of the concept
+- [Kevin Powell](https://www.youtube.com/kepowob) - My goto for CSS tutorials and exploring new possibilities
+- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first, grid and flexbox were things that existed
+- [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation
 
 [Return to top](#happy-bees-cafe-website)
