@@ -53,6 +53,7 @@ By the end of this document, we will have covered:
   - [404 Page](#404-page)
 
 - [Development and Testing](#development-and-testing)
+  - [User Stories Testing](#user-stories-testing)
 
 - [Validation Testing](#validation-testing)
   - [HTML Testing](#html-wc3-markup-validation-service)
@@ -171,21 +172,21 @@ This is where the design culminates. Does it smell like value? By following the 
 
 ### Wireframes
 
-I used [Balsamiq](https://balsamiq.com/) to draft mockups of how I wanted the fundamental pages of the website to be laid out.
+I started jotting on paper the features that must be included followed by some rudimentary drawings of how the pages could look on mobile and desktop. I used [Balsamiq](https://balsamiq.com/) to draft mockups digitally of how I wanted the fundamental pages of the website to be laid out.
 
 <details>
-<summary>Homepage:</summary>
-insert wireframes image here
+<summary>Homepage</summary>
+<img src="docs/happybeescafe.png">
 </details>
 
 <details>
-<summary>Menu Page:</summary>
-insert wireframes image here
+<summary>Menu</summary>
+<img src="docs/happybeesmenu.png">
 </details>
 
 <details>
-<summary>Gallery Page:</summary>
-insert wireframes image here
+<summary>Gallery</summary>
+<img src="docs/happybeesgallery.png">
 </details>
 
 This served as template for my markup and styling, creating a clear vision for me to start with. Due to the rough nature of the sketches, iteration is to be expected. In testing the application throught development, changes were made where it better suited the core vision.
@@ -220,6 +221,8 @@ insert colour palette image here
 </details>
 
 I ended up with a simple selection of colours: Black, White, Yellow, Light Brown and Dark Brown. The brown tones were taken from the different shades of wood visible in the picture. They were used effectively in the 'picture-frame' motif that is used across pages.
+
+On pages with a dark stock image, I created a white border to help mark the divide between the main content and the footer
 
 ### Imagery
 
