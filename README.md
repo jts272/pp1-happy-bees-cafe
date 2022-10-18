@@ -447,7 +447,73 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   - https://search.google.com/test/mobile-friendly/result?id=fuNWWz3m1mBr-W5qMdtvww
 
 ### Lighthouse (Open DevTools > Lighthouse)
-  - tbw
+
+Lighhouse reports were generated from DevTools in an Incognito Mode Google Chrome Window. I was thrilled to receive 100/100 on Accessibility, Best Practices and SEO categories. I will present mobile results first (in keeping with the design of the app) followed by desktop. The desktop audit scored extremely favourably on performance.
+
+I made use of the results in attempts to optimize performance. For example, I made use of the preconnect feature for imported fonts as seen in [this commit.](https://github.com/jts272/pp1-happy-bees-cafe/commit/2b53a9660e5c6477e3299eb8cd51922042014ce8) I also experimented with different filetypes and pixel widths for my hero image and ultimately settled on a [2000px width jpg](https://github.com/jts272/pp1-happy-bees-cafe/commit/272049a737673c230f7d7e6106867600e5738d4c) for balance of filesize and image clarity. This is definitely a discipline I would like to further research and optimize.
+
+
+<details>
+<summary>Index - Mobile</summary>
+<img src="docs/lh-m-index.png">
+</details>
+
+<details>
+<summary>Menu - Mobile</summary>
+<img src="docs/lh-m-menu.png">
+</details>
+
+<details>
+<summary>Gallery - Mobile</summary>
+<img src="docs/lh-m-gallery.png">
+</details>
+
+<details>
+<summary>Form - Mobile</summary>
+<img src="docs/lh-m-form.png">
+</details>
+
+<details>
+<summary>Thank You - Mobile</summary>
+<img src="docs/lh-m-thankyou.png">
+</details>
+
+<details>
+<summary>404 - Mobile</summary>
+<img src="docs/lh-m-404.png">
+</details>
+
+---
+
+<details>
+<summary>Index - Desktop</summary>
+<img src="docs/lh-d-index.png">
+</details>
+
+<details>
+<summary>Menu - Desktop</summary>
+<img src="docs/lh-d-menu.png">
+</details>
+
+<details>
+<summary>Gallery - Desktop</summary>
+<img src="docs/lh-d-gallery.png">
+</details>
+
+<details>
+<summary>Form - Desktop</summary>
+<img src="docs/lh-d-form.png">
+</details>
+
+<details>
+<summary>Thank You - Desktop</summary>
+<img src="docs/lh-d-thankyou.png">
+</details>
+
+<details>
+<summary>404 - Desktop</summary>
+<img src="docs/lh-d-404.png">
+</details>
 
 ---
 
