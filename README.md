@@ -394,22 +394,46 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   insert image here
   </details>
 
-- Mobile-Friendly Test
+- [Mobile-Friendly Test:](https://search.google.com/test/mobile-friendly)
   - tbw
-- Lighthouse
+
+- Lighthouse (Open DevTools > Lighthouse)
   - tbw
 
 ---
 
 ## Version Control and Code Maintainablity
-tbw
 
-## Unfixed Bugs
+[Click to view commit history for the project](https://github.com/jts272/pp1-happy-bees-cafe/commits/main)
+
+GitHub was used for version control. With each change to the code, such as adding new sections in the markup, or styling a section, I would commit my updates using the CLI. From here, I used the push command to save the update to my repository.
+
+Each commit serves as a snapshot in time of the code so the natural progression of the application's code is visible. Each commit is described by a brief message that describes what the update will do. 
+
+GitHub allows comments on commits. I have made use of this feature to give more colour on the what and why of certain commits, as well as attributing ideas from other sources. Look out for the commits that have a speech bubble icon :speech_balloon:
+
+To ensure code maintainablilty, I have used [Google's HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) as the rubric for my code. In short, this amounts to appropriate use of HTML5 semantic elements and meaningful ordering and naming conventions in my stylesheet. My style declaration blocks are ordered alphabetically with one exception. Where positioning rules are declared, I state my positioning values clockwise from the top, mirroring the shorthand function.
+
+As a coder at the early stages of learning, I found this very helpful to build good habits in producing 'clean code'. On top of fully passing validity checks, I want my code to be easily scannable to human readers.
+
+Examples of best practices taken with my code include:
+
+- Descriptive and consistent file and class names
+- Lowercase naming conventions with no whitespaces between words
+- Understandable directory grouping for project files
+- Consistent indentation and commented section headers in stylesheet
+- All styling controlled by a separate stylesheet, linked in each page's head element
+- Semantic markup used in an ordered and consistent manner across pages
+
+In keeping to these practices, my aim is to make any future updates as smooth as possible. Whether by myself or by collaboration, my code should be quickly understandable to make updates as smooth as possible.
+
+
+## Deployment Strategy
 tbw
 
 ---
 
-## Deployment Strategy
+## Unfixed Bugs
 tbw
 
 ---
