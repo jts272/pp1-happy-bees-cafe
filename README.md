@@ -366,32 +366,32 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   
   <details>
   <summary>Index</summary>
-  insert image here
+  <img src="docs/val-index.png">
   </details>
 
   <details>
   <summary>Menu</summary>
-  insert image here
+  <img src="docs/val-menu.png">
   </details>
 
   <details>
   <summary>Gallery</summary>
-  insert image here
+  <img src="docs/val-gallery.png">
   </details>
 
   <details>
   <summary>Form</summary>
-  insert image here
+  <img src="docs/val-form.png">
   </details>
 
   <details>
   <summary>Thank You</summary>
-  insert image here
+  <img src="docs/val-thankyou.png">
   </details>
 
   <details>
   <summary>404</summary>
-  insert image here
+  <img src="docs/val-404.png">
   </details>
   
 
