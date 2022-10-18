@@ -470,6 +470,25 @@ insert image here
 
 - Solution [Add text to second table header and set display: none; by CSS](https://github.com/jts272/pp1-happy-bees-cafe/commit/596b666d5867cc3e319d85b5bfd4227f8b6bb096#comments)
 
+## Workflow Optimizations and Future Ideas
+
+I found this project to be a fantastic learning opportunity. As my first foray into HTML and CSS coding for a web application, there were many problems to overcome. Here are just a few things I've learned that will optimize the development of future work:
+
+- Proper use of 'container' divs to control layout behaviour
+- Ensure validity of markup of index page before creating other pages - don't copy bad code that you will have to replace in bulk!
+- Improved understanding of semantic element usage
+- In general, use intended capitalization in body text to prevent excessive text-transform usage
+- Better understanding of how to format tables - establish a row first!
+- Targeting the correct element in CSS - perhaps the biggest cause of frustration to overcome!
+- Establishing general rules at the top of the stylesheet
+- Proper ordering of media queries to display the site as intended
+
+I am happy that the application met its goals in full. However, there is always more to learn and implement for the future. Here are some ideas:
+
+- Burger menus can be implemented without JavaScript! [Example in my CodePen](https://codepen.io/jts272/pen/BaxPdjY)
+- Including further interactivity with gallery items, such as clicking will provide a text description of the image or a link to it on the menu
+- Implementing a Favicon. Not a make or break feature as GitHub Pages provides a generic one, but would be expected for sites hosted independently.
+
 ## Devices and Technologies Used
 tbw
 
