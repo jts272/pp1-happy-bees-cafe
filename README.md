@@ -429,9 +429,15 @@ In keeping to these practices, my aim is to make any future updates as smooth as
 
 
 ## Deployment Strategy
-tbw
 
----
+The deployment platform for this project was GitHub Pages. This was a simple process once the site was ready to go live. Here are the steps taken to deploy:
+
+1. From the main repository page, select 'Settings' :gear: from the top tab
+2. Under the 'Code and automation' section of the list on the left, select 'Pages'
+3. Select the 'main' branch and 'root' folder and hit 'Save'
+4. Wait for GitHub to build the webpage and follow the url provided after processing.
+
+By following these steps, the contents of the repository is published live to the internet. The provided url can then be accessed from any device's browser.
 
 ## Unfixed Bugs
 tbw
