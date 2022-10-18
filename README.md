@@ -4,7 +4,7 @@
 
 ### [Click here to view the live web application!](https://jts272.github.io/pp1-happy-bees-cafe/index.html) 
 
-(Middle click or right click to open in a new tab)
+(All links can be opened in a new tab with Middle Click or Right Clicking and selecting 'Open link in new tab')
 
 ---
 
@@ -75,14 +75,15 @@ By the end of this document, we will have covered:
   - [Browser Extensions](#browser-extensions)
   - [Platforms](#platforms)
 
-- [Credits and Resources](#credits-and-resources
+- [Credits and Resources](#credits-and-resources)
+
 ---
 
 ## User Experience (UX)
 
 Happy Bee's Cafe is a friendly, family run business that offers a seated cafe experience, as well as takeaway and local delivery orders. The website aims to be a complete, up to date hub for what the business offers. Users can expect to find all pertinent information such as menus and pricing, as well as how to get in touch and follow the latest updates on social channels.
 
-The site is built from the ground up to be fully responsive with a 'mobile-first' design philosophy. The appearance and functionality of the site will be built with progressive advancement in mind. This ensures that the user has a positive emotional experience interacting with the site, regardless of their chosen device. [Google](https://developers.google.com/search/mobile-sites/mobile-first-indexing) index and rank pages based on the mobile version so this design choice gears the site to be more SEO-friendly.
+The site is built from the ground up to be fully responsive with a 'mobile-first' design philosophy. The appearance and functionality of the site was built with progressive advancement in mind. This ensures that the user has a positive emotional experience interacting with the site, regardless of their chosen device. [Google](https://developers.google.com/search/mobile-sites/mobile-first-indexing) index and rank pages based on the mobile version so this design choice gears the site to be more SEO-friendly.
 
 The CARE principles are a core part of the development process. The application is for a business with an existing branding and client base, so the website leveraged this in its design. I decided to create a site that is **cohesive** with the interior styling of the cafe itself. This idea is further expounded in the Design Process section.
 
@@ -106,7 +107,7 @@ The website exists for the benefit of the business owners, thier current custome
   - To easily find the location of the cafe
   - To see what food is on offer
   - To view the price of the food on offer
-  - To see the eating in area
+  - To see the actual cafe
   - To see that there is an order function
 
 - Returning Visitor Goals:
@@ -330,6 +331,15 @@ Links were tested across pages. External links were tested to open a new browser
 
 Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website url in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
 
+### User Stories Testing
+
+| Client Goal | Facilitated By | Result |
+| --- | --- | --- |
+| Customers find the cafe | Address and Google Map CTA in footer | :heavy_check_mark: |
+| Customers can place an order | Functional form and telephone number provided | :heavy_check_mark: |
+| Project a positive brand image | Cohesive styling and inviting language in copy | :heavy_check_mark: |
+| Keep customers up to date | Up to date opening times and menu prices prominent | :heavy_check_mark: |
+
 ## Validation Testing
 
 ### HTML: [WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input+with_options)
@@ -514,6 +524,7 @@ I am happy that the application met its goals in full. However, there is always 
 - Mozilla Firefox Developer Edition - More for desktop development and robust grid viewing tools
 - MS Paint - Resizing images
 - GIMP - Exporting images to WebP format
+- Balsamiq - Wireframing
 
 ### Browser Extensions
 
@@ -526,6 +537,9 @@ I am happy that the application met its goals in full. However, there is always 
 - GitPod - The workspace in which the application was written
 - GitHub - To store and host my code and application
 - CodePen - To practice new coding ideas in a safe environment with instant feedback
+- Pexels - For stock images
+- Google Fonts - To import fonts used on the site
+- Coolors - For identifying the colour palette to use for the site
 
 ## Credits and Resources
 
