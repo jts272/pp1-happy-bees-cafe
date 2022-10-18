@@ -38,6 +38,7 @@ By the end of this document, we will have covered:
   - [User Stories](#user-stories)
 
 - [Design Process](#design-process)
+  - [User Experience Development (UXD)](#user-experience-development-uxd)
   - [Wireframes](#wireframes)
   - [Typography](#typography)
   - [Colour Palette](#colour-palette)
@@ -45,30 +46,36 @@ By the end of this document, we will have covered:
 
 - [Features](#features)
   - [Homepage](#homepage)
-    - Header
-    - Navigation Bar
-    - Hero Image
-    - About Us
-    - Footer
   - [Menu Page](#menu-page)
-    - Menus
   - [Gallery Page](#gallery-page)
-    - Image Gallery
   - [Order Page](#order-page)
-    - Order Form
+  - [Thank You Page](#thank-you-page)
+  - [404 Page](#404-page)
+
+- [Development and Testing](#development-and-testing)
 
 - [Validation Testing](#validation-testing)
-  - [HTML Testing]
-  - [CSS Testing]
+  - [HTML Testing](#html-wc3-markup-validation-service)
+  - [CSS Testing](#css-w3c-css-validation-service-jigsaw)
+  - [Acessibility Testing](#acessibility-wave-web-accessibility-evaluation-tool--browser-extension-available)
+  - [Mobile-Friendly Testing](#mobile-friendly-test)
+  - [Lighthouse Rating](#lighthouse-open-devtools--lighthouse)
 
-- [Unfixed Bugs](#unfixed-bugs)
+- [Version Control and Code Maintainability](#version-control-and-code-maintainablity)
 
 - [Deployment Strategy](#deployment-strategy)
 
-- [Technologies Used](#technologies-used)
+- [Bugs](#bugs)
 
-- [Credits](#credits)
+- [Workflow Optimizations and Future Ideas](#workflow-optimizations-and-future-ideas)
 
+- [Devices and Technologies Used](#devices-and-technologies-used)
+  - [Hardware](#hardware)
+  - [Software](#software)
+  - [Browser Extensions](#browser-extensions)
+  - [Platforms](#platforms)
+
+- [Credits and Resources](#credits-and-resources
 ---
 
 ## User Experience (UX)
@@ -116,6 +123,8 @@ The cafe is open from morning to early afternoon. It is situated on a busy road 
 ---
 
 ## Design Process
+
+### User Experience Development (UXD)
 
 I followed the 5 planes of UX to determine the course of the project before ever writing a line of code. The 5 planes are as follows:
 
@@ -213,7 +222,7 @@ I ended up with a simple selection of colours: Black, White, Yellow, Light Brown
 
 ### Imagery
 
-Imagery consists of:
+Imagery on the website consists of:
 
 - Hero Image
 - Gallery Images
@@ -322,7 +331,8 @@ Links were tested across pages. External links were tested to open a new browser
 Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website url in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
 
 ## Validation Testing
-- HTML: [WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input+with_options)
+
+### HTML: [WC3 Markup Validation Service](https://validator.w3.org/#validate_by_input+with_options)
   
   <details>
   <summary>Index</summary>
@@ -355,14 +365,14 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   </details>
   
 
-- CSS: [W3C CSS Validation Service (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
+### CSS: [W3C CSS Validation Service (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input)
   
   <details>
   <summary>Stylesheet</summary>
   insert image here
   </details>
   
-- Acessibility: [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) ~ [Browser Extension Available](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+### Acessibility: [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) ~ [Browser Extension Available](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
   
   <details>
   <summary>Index</summary>
@@ -394,10 +404,10 @@ Aside from the artistic and functional testing conducted by myself, I used onlin
   insert image here
   </details>
 
-- [Mobile-Friendly Test:](https://search.google.com/test/mobile-friendly)
+### [Mobile-Friendly Test:](https://search.google.com/test/mobile-friendly)
   - tbw
 
-- Lighthouse (Open DevTools > Lighthouse)
+### Lighthouse (Open DevTools > Lighthouse)
   - tbw
 
 ---
@@ -519,12 +529,12 @@ I am happy that the application met its goals in full. However, there is always 
 
 ## Credits and Resources
 
-- Code Institute - For providing my primary learning platform and [template](https://github.com/Code-Institute-Org/gitpod-full-template), which is the foundation of this project
-- W3Schools - My first port of call for furthering my understanding of basic HTML and CSS functionality
-- CSS in easy steps 4th ed. by Mike McGrath - invaluable in getting my understanding of layout and styling up to speed
-- SEO for Dummies by Peter Kent - Skimmed through pertinent sections to get a basic understanding of the concept
+- [Code Institute](https://codeinstitute.net/) - For providing my primary learning platform and [template](https://github.com/Code-Institute-Org/gitpod-full-template), which is the foundation of this project
+- [W3Schools](https://www.w3schools.com/) - My first port of call for furthering my understanding of basic HTML and CSS functionality
+- [CSS in Easy Steps 4th ed.](https://www.goodreads.com/book/show/1570211.CSS_in_Easy_Steps?from_search=true&from_srp=true&qid=YEtLs5mdby&rank=1) by Mike McGrath - invaluable in getting my understanding of layout and styling up to speed
+- [SEO for Dummies](https://www.goodreads.com/book/show/45004964-seo-for-dummies) by Peter Kent - Skimmed through pertinent sections to get a basic understanding of the concept
 - [Kevin Powell](https://www.youtube.com/kepowob) - My goto for CSS tutorials and exploring new possibilities
-- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first, grid and flexbox were things that existed
+- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid and flexbox were things that existed
 - [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation
 
 [Return to top](#happy-bees-cafe-website)
