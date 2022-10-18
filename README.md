@@ -195,10 +195,7 @@ This served as template for my markup and styling, creating a clear vision for m
 
 As I was creating a webpage for a preexisting company, I wanted it to reflect the branding already established. I chose to have a header font that matches the masthead outside the cafe:
 
-<details>
-<summary>Cafe Logo</summary>
-insert cafe banner image here
-</details>
+![cafe premises logo](docs/happy-bee-logo.jpg)
 
 I initially used various [fond finders](https://www.google.com/search?q=font+finder&ei=QydNY_68FcWw8gLziqzQBQ&ved=0ahUKEwi-6u2igOf6AhVFmFwKHXMFC1oQ4dUDCA4&uact=5&oq=font+finder&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAELEDEJECMgUIABCRAjIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsIABCABBCxAxCDAUoECE0YAUoECEEYAEoECEYYAFAAWIoFYLYGaABwAXgAgAFoiAG6A5IBAzUuMZgBAKABAcABAQ&sclient=gws-wiz), but results were not satisfactory. Instead, I used [Google Fonts](https://fonts.google.com/). I entered the cafe's name in all caps in the preview window and selected the font that most closely matched. The drop shadow effects were later styled in CSS.
 
@@ -206,7 +203,7 @@ For the body text, I again relied on Google fonts. I selected a sans-serif font 
 
 <details>
 <summary>Paper Menu</summary>
-insert paper menu image here
+<img src="docs/comic-menu.jpg">
 </details>
 
 ### Colour Palette
@@ -215,10 +212,7 @@ I took various images of the cafe after my initial project meeting. I used a cle
 
 In keeping with the bee branding, black and yellow is to be expected. I would naturally make use of white for contrast. By importing my hero image photo to [Coolors](https://coolors.co/), I was able to pinpoint the colours I wanted to use, down to the exact HEX or RGB code. Here are the colours I selected:
 
-<details>
-<summary>Colour Palette</summary>
-insert colour palette image here
-</details>
+![colour palette](docs/hero-image-palette.png)
 
 I ended up with a simple selection of colours: Black, White, Yellow, Light Brown and Dark Brown. The brown tones were taken from the different shades of wood visible in the picture. They were used effectively in the 'picture-frame' motif that is used across pages.
 
