@@ -66,7 +66,7 @@ We will discover how these guiding principles formed the basis of my first web a
   - [Mobile-Friendly Testing](#mobile-friendly-test)
   - [Lighthouse Rating](#lighthouse-open-devtools--lighthouse)
 
-- [Version Control and Code Maintainability](#version-control-and-code-maintainablity)
+- [Version Control and Code Maintainability](#version-control-and-code-maintainability)
 
 - [Deployment Strategy](#deployment-strategy)
 
@@ -370,7 +370,7 @@ I would test the styling of my items and iterate to ensure I got the desired pre
 
 Links were tested across pages. External links were tested to open a new browser tab. The form was tested to ensure that the browser recognized which elements were required, and that radio buttons were grouped correctly to prevent multiple selections. I tested the completed form to ensure it would send users to the Thank You Page upon completion.
 
-Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below after the testing sections are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website URL in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
+Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessibility in mind. Outlined below after the testing sections are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website URL in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
 
 ### Functionality Testing
 
