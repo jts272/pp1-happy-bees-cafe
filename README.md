@@ -236,7 +236,7 @@ On pages with a dark stock image, I created a white border to help mark the divi
 
 Imagery on the website consists of:
 
-- Hero Image
+- A Hero Image
 - Gallery Images
 - Stock images for certain page backgrounds
 
@@ -266,9 +266,12 @@ In order to ensure the user is given proper feedback to confirm their actions, 2
 
 - 404 Page - In the event of a browsing error, this page playfully informs the user that the page cannot be found and offers to guide them safely back to the homepage.
 
-Here we will explore the webpages in further detail:
+Here we will explore the webpages in further detail. Screenshots are provided for the desktop offering:
 
 ### Homepage:
+
+![index](docs/ss-index.png)
+
 - Header
   - The company name and logo is featured prominently. As the user would expect, clicking this navigates back to the homepage.
 - Navigation Bar
@@ -281,6 +284,8 @@ Here we will explore the webpages in further detail:
   - The page finishes with valuable information such as address, contact information and social links. There are calls to action for the user to connect with the business by finding the location on Google Maps or to follow the Facebook page. 
   - An easily accessible button to return to the top affords users a swift viewing experience by sending them back to the navigational links at the top of the page.
 
+![footer](docs/ss-footer.png)
+
 ---
 
 *The Header, Navigation Bar and Footer are consistent elements on every page.* The user would expect to know which page they are on and how to easily access the other pages of the site. The key features of their respective pages are detailed below:
@@ -288,29 +293,54 @@ Here we will explore the webpages in further detail:
 ---
 
 ### Menu page:
+
+![menu](docs/ss-menu.png)
+
 - Menus
   - Meals and pricing are displayed clearly and unambiguously.
   - The Menus are split up to reflect the paper menus available from the cafe. They are styled to resemble chalkboards hanging from the wall in CSS.
   - The menu boards are flexible items that will wrap to fit the user's screen whilst retaining the integrity of the content.
 
 ### Gallery page:
+
+![gallery](docs/ss-gallery.png)
+
 - Image Gallery
   - A responsive image gallery shows the user the variety and quality of the food, as well as the seating environment.
   - A 2 column layout for mobile and an interactive 4 column layout for desktop. Desktop gallery styled in CSS to resemble picture frames. On hover, the picture rises with a shadow effect to simulate taking a photo frame off the wall.
 
 ### Order page:
+
+![form](docs/ss-form.png)
+
 - Order Form
   - This form gives the user a way to interact in placing a custom order. Whether for a workplace lunch or a fully catered event, the customer can send their request to be prepared.
   - Responsive and retains high contrast regardless of layout.
   - Certain elements are required for the form to complete.
   - Sends user to Thank You Page upon sucessful completion.
 
+<details>
+<summary>Full Desktop Form</summary>
+<img src="docs/ss-desktop-form.png">
+</details>
+
+<details>
+<summary>Full Mobile Form</summary>
+<img src="docs/ss-mobile-form.png">
+</details>
+
 ### Thank You Page:
+
+![thankyou](docs/ss-thankyou.png)
+
 - Thank You Message
   - Informs the user that their form has sucessfully completed and thanks them for their input.
   - There is no back end set up in this application for the form, so the user is informed that their order cannot be fulfilled at the moment so invites them to come to the cafe instead.
 
 ### 404 Page:
+
+![404](docs/ss-404.png)
+
 - Guide to Homepage
   - A simple page that informs the user of the 404 error in a friendly manner.
   - A picture of a bee on a sunflower creates a positive vibe and keeps emotional reaction positive in spite of error.
@@ -384,19 +414,19 @@ As well as testing the functionality of the site, tests were conducted to ensure
 | --- | --- | --- |
 | To find the cafe easily | Address and Google Map CTA in footer | :heavy_check_mark: |
 | To see the food available | Easy access to full menu from navbar | :heavy_check_mark: |
-| View pricing | All prices listed next to menu items | :heavy_check_mark: |
-| See the actual cafe | Hero image and gallery contain interior and exterior shots | :heavy_check_mark: |
+| To view pricing | All prices listed next to menu items | :heavy_check_mark: |
+| To see the actual cafe | Hero image and gallery contain interior and exterior shots | :heavy_check_mark: |
 | To see they can order online | Order page featured on navbar | :heavy_check_mark: |
 
 | Returning Visitor Goal | Facilitated By | Result |
 | --- | --- | --- |
 | Place order for collection | Form allows for order collection | :heavy_check_mark: |
 | Place order for delivery | Form allows for delivery address to be specified | :heavy_check_mark: |
-| Find up to date pricing info | Up to date pricing in menu so they don't have to find out when they get there | :heavy_check_mark: |
+| Find up to date pricing info | Up to date pricing in menu so they don't have to go to the cafe | :heavy_check_mark: |
 
 | Frequent Visitor Goal | Facilitated By | Result |
 | --- | --- | --- |
-| Connect with the cafe on other channels | Social CTAs for Facebook and email interaction and link to review page on homepage | :heavy_check_mark: |
+| Connect with the cafe on other channels | Social CTAs for Facebook and email interaction and a link to a review page on homepage | :heavy_check_mark: |
 | Order for catered event | Order form provides text area for special orders for events | :heavy_check_mark: |
 
 
@@ -589,9 +619,9 @@ The deployment platform for this project was GitHub Pages. This was a simple pro
 1. From the main repository page, select 'Settings' :gear: from the top tab
 2. Under the 'Code and automation' section of the list on the left, select 'Pages'
 3. Select the 'main' branch and 'root' folder and hit 'Save'
-4. Wait for GitHub to build the webpage and follow the url provided after processing.
+4. Wait for GitHub to build the webpage and follow the URL provided after processing.
 
-By following these steps, the contents of the repository is published live to the internet. The provided url can then be accessed from any device's browser.
+By following these steps, the contents of the repository is published live to the internet. The provided URL can then be accessed from any device's browser.
 
 ![github pages deployment](docs/github-pages.png)
 
@@ -643,21 +673,21 @@ I am happy that the application met its goals in full. However, there is always 
 
 - Burger menus can be implemented without JavaScript! [Example in my CodePen.](https://codepen.io/jts272/pen/BaxPdjY)
 - Including further interactivity with gallery items, such as clicking will provide a text description of the image or a link to it on the menu
-- Implementing a Favicon. Not a make or break feature as GitHub Pages provides a generic one, but would be expected for sites hosted independently.
+- Implementing a Favicon. Not a make or break feature as GitHub Pages provides a generic one, but would be expected for sites hosted independently
 
 ## Devices and Technologies Used
 
 ### Hardware
 
-- Lenovo Windows 10 Home 14" Laptop - 1920x1080, 100% Scaling
-- Dell LCD Monitor - 1280x1024
-- LG CRT Monitor - 1024x768
+- Lenovo Windows 10 Home 14" Laptop @ 1920x1080, 100% Scaling
+- Dell LCD Monitor @ 1280x1024
+- LG CRT Monitor @ 1024x768
 - Apple iPhone 6s
 
 ### Software
 
 - Google Chrome - Majority of coding/testing and extensive use of DevTools and device simulation
-- Mozilla Firefox Developer Edition - More for desktop development and robust grid viewing tools
+- Mozilla Firefox Developer Edition - Used more for desktop development and robust grid viewing tools
 - Microsoft Edge - Another browser for testing
 - Apple Safari iOS - Mobile browser for testing
 - MS Paint - Resizing images
@@ -691,7 +721,7 @@ I am happy that the application met its goals in full. However, there is always 
 - [Essentialism - The Disciplined Pursuit of Less](https://www.goodreads.com/book/show/18077875-essentialism) by Greg McKeown - Prior reading of this helped to keep the design process properly focussed
 - [Kevin Powell](https://www.youtube.com/kepowob) - My goto for CSS tutorials and exploring new possibilities
 - [Jimdo Blog](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/) - A blog for web optimization. I found the linked example regarding images helpful
-- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid, flexbox and Lighthouse were things that existed
-- [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation
+- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid, flexbox and Lighthouse were things that existed :pray:
+- [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation :+1:
 
 [Return to top](#happy-bees-cafe-website)
