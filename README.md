@@ -56,6 +56,7 @@ We will discover how these guiding principles formed the basis of my first web a
   - [404 Page](#404-page)
 
 - [Development and Testing](#development-and-testing)
+  - [Functionality Testing](#functionality-testing)
   - [User Stories Testing](#user-stories-testing)
 
 - [Validation Testing](#validation-testing)
@@ -370,6 +371,8 @@ The tests here were performed on a range of devices and browsers, which can be f
 
 ### User Stories Testing
 
+As well as testing the functionality of the site, tests were conducted to ensure the user goals were met for all parties. Friends, family and colleagues that have used the site have responded positively to the presentation and found navigation intuitive.
+
 | Client Goal | Facilitated By | Result |
 | --- | --- | --- |
 | Customers find the cafe | Address and Google Map CTA in footer | :heavy_check_mark: |
@@ -562,9 +565,9 @@ GitHub was used for version control. With each change to the code, such as addin
 
 Each commit serves as a snapshot in time of the code so the natural progression of the application's code is visible. Each commit is described by a brief message that describes what the update will do. 
 
-GitHub allows comments on commits. I have made use of this feature to give more colour on the what and why of certain commits, as well as attributing ideas from other sources. Look out for the commits that have a speech bubble icon :speech_balloon:
+GitHub allows comments on commits. I have made use of this feature to give more colour on the what and why of certain commits, as well as attributing ideas from other sources. Look out for the commits that have a speech bubble icon! :speech_balloon:
 
-To ensure code maintainablilty, I have used [Google's HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) as the rubric for my code. In short, this amounts to appropriate use of HTML5 semantic elements and meaningful ordering and naming conventions in my stylesheet. My style declaration blocks are ordered alphabetically with one exception. Where positioning rules are declared, I state my positioning values clockwise from the top, mirroring the shorthand function.
+To ensure code maintainablilty, I have used [Google's HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) as a rubric. In short, this amounts to appropriate use of HTML5 semantic elements and meaningful ordering and naming conventions in my stylesheet. My style declaration blocks are ordered alphabetically with one exception; where positioning rules are declared, I state my positioning values clockwise from the top, mirroring the shorthand function.
 
 As a coder at the early stages of learning, I found this very helpful to build good habits in producing 'clean code'. On top of fully passing validity checks, I want my code to be easily scannable to human readers.
 
@@ -577,8 +580,7 @@ Examples of best practices taken with my code include:
 - All styling controlled by a separate stylesheet, linked in each page's head element
 - Semantic markup used in an ordered and consistent manner across pages
 
-In keeping to these practices, my aim is to make any future updates as smooth as possible. Whether by myself or by collaboration, my code should be quickly understandable to make updates as smooth as possible.
-
+In keeping to these practices, my aim is to make any future updates as smooth as possible. Whether by myself or by collaboration, my code should be quickly understandable to make updates as frictionless as possible.
 
 ## Deployment Strategy
 
@@ -597,7 +599,7 @@ By following these steps, the contents of the repository is published live to th
 
 The application meets the demands of its clients and users. Functionality of the application is as intended through thorough testing. Along the way, there were a few bugs that were addressed to meet the goals of the project:
 
-1. Footer items not flexing as intended.
+1. Footer items not flexing as intended
 
 <details>
 <summary>Footer Bug</summary>
@@ -622,7 +624,7 @@ The application meets the demands of its clients and users. Functionality of the
 <img src="docs/empty-table-bug.png">
 </details>
 
-- Solution [Add text to second table header and set display: none; by CSS](https://github.com/jts272/pp1-happy-bees-cafe/commit/596b666d5867cc3e319d85b5bfd4227f8b6bb096#comments)
+- Solution [Add text to second table header and set `display: none;` with CSS](https://github.com/jts272/pp1-happy-bees-cafe/commit/596b666d5867cc3e319d85b5bfd4227f8b6bb096#comments)
 
 ## Workflow Optimizations and Future Ideas
 
@@ -639,7 +641,7 @@ I found this project to be a fantastic learning opportunity. As my first foray i
 
 I am happy that the application met its goals in full. However, there is always more to learn and implement for the future. Here are some ideas:
 
-- Burger menus can be implemented without JavaScript! [Example in my CodePen](https://codepen.io/jts272/pen/BaxPdjY)
+- Burger menus can be implemented without JavaScript! [Example in my CodePen.](https://codepen.io/jts272/pen/BaxPdjY)
 - Including further interactivity with gallery items, such as clicking will provide a text description of the image or a link to it on the menu
 - Implementing a Favicon. Not a make or break feature as GitHub Pages provides a generic one, but would be expected for sites hosted independently.
 
@@ -656,9 +658,12 @@ I am happy that the application met its goals in full. However, there is always 
 
 - Google Chrome - Majority of coding/testing and extensive use of DevTools and device simulation
 - Mozilla Firefox Developer Edition - More for desktop development and robust grid viewing tools
+- Microsoft Edge - Another browser for testing
+- Apple Safari iOS - Mobile browser for testing
 - MS Paint - Resizing images
 - GIMP - Exporting images to WebP format
 - Balsamiq - Wireframing
+- Windows Snip & Sketch (Win + Shift + S) - For quickly capturing and annotating my screen
 
 ### Browser Extensions
 
@@ -674,16 +679,19 @@ I am happy that the application met its goals in full. However, there is always 
 - Pexels - For stock images
 - Google Fonts - To import fonts used on the site
 - Coolors - For identifying the colour palette to use for the site
+- Font Awesome - For my call to action icons
 
 ## Credits and Resources
 
 - [Code Institute](https://codeinstitute.net/) - For providing my primary learning platform and [template](https://github.com/Code-Institute-Org/gitpod-full-template), which is the foundation of this project
 - [W3Schools](https://www.w3schools.com/) - My first port of call for furthering my understanding of basic HTML and CSS functionality
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) - To build good habits for clean coding
 - [CSS in Easy Steps 4th ed.](https://www.goodreads.com/book/show/1570211.CSS_in_Easy_Steps?from_search=true&from_srp=true&qid=YEtLs5mdby&rank=1) by Mike McGrath - invaluable in getting my understanding of layout and styling up to speed
 - [SEO for Dummies](https://www.goodreads.com/book/show/45004964-seo-for-dummies) by Peter Kent - Skimmed through pertinent sections to get a basic understanding of the concept
 - [Essentialism - The Disciplined Pursuit of Less](https://www.goodreads.com/book/show/18077875-essentialism) by Greg McKeown - Prior reading of this helped to keep the design process properly focussed
 - [Kevin Powell](https://www.youtube.com/kepowob) - My goto for CSS tutorials and exploring new possibilities
-- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid and flexbox were things that existed
+- [Jimdo Blog](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/) - A blog for web optimization. I found the linked example regarding images helpful
+- [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid, flexbox and Lighthouse were things that existed
 - [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation
 
 [Return to top](#happy-bees-cafe-website)
