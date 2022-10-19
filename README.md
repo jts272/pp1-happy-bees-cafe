@@ -213,13 +213,23 @@ For the body text, I again relied on Google fonts. I selected a sans-serif font 
 
 I took various images of the cafe after my initial project meeting. I used a clear shot of an interior wall as both my hero image and colour palette. Although it is easy enough to select a generated 'off-the-shelf' colour palette, I wanted to create a cohesive experience from screen to real-world premises.
 
+<details>
+<summary>Cafe Interior/Hero Image</summary>
+<img src="assets/images/hero-image-2000px.jpg">
+</details>
+
 In keeping with the bee branding, black and yellow is to be expected. I would naturally make use of white for contrast. By importing my hero image photo to [Coolors](https://coolors.co/), I was able to pinpoint the colours I wanted to use, down to the exact HEX or RGB code. Here are the colours I selected:
 
 ![colour palette](docs/hero-image-palette.png)
 
 I ended up with a simple selection of colours: Black, White, Yellow, Light Brown and Dark Brown. The brown tones were taken from the different shades of wood visible in the picture. They were used effectively in the 'picture-frame' motif that is used across pages.
 
-On pages with a dark stock image, I created a white border to help mark the divide between the main content and the footer
+On pages with a dark stock image, I created a white border to help mark the divide between the main content and the footer:
+
+<details>
+<summary>Content Divider</summary>
+<img src="docs/dark-bg-divider.png">
+</details>
 
 ### Imagery
 
