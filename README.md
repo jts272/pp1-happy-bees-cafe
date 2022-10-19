@@ -4,7 +4,9 @@
 
 ### [Click here to view the live web application!](https://jts272.github.io/pp1-happy-bees-cafe/index.html) 
 
-(All links can be opened in a new tab with Middle Click or Right Clicking and selecting 'Open link in new tab')
+(All links can be opened in a new tab with Middle Click or by Right Clicking and selecting 'Open link in new tab')
+
+Return to the top of the page at any time by clicking on 'README.md' at the top left of the page.
 
 ---
 
@@ -19,15 +21,15 @@ Throught development of the project, I bore in mind my principles of CARE:
 - Responsive
 - Essential
 
-We will discover how these guiding principles formed the basis of my first web application project to create an appealing, logical and valuable product.
-
-By the end of this document, we will have covered:
+We will discover how these guiding principles formed the basis of my first web application project to create an appealing, logical and valuable product. By the end of this document, we will have covered:
 
 - UX (User Experience) development
+- Design Process
 - Testing of the application throughout development, implementation and deployment stages
-- Deployment method to a cloud-based platform (GitHub Pages)
-- Code structure and organization to maximize maintainability for the future
+- Code structure, integrity and organization to maximize maintainability for the future
 - Version control process
+- Deployment method to a cloud-based platform (GitHub Pages)
+- Problems encountered and their solutions
 - Development learning opportunities and ideas for future implementations
 
 ---
@@ -39,6 +41,7 @@ By the end of this document, we will have covered:
 
 - [Design Process](#design-process)
   - [User Experience Development (UXD)](#user-experience-development-uxd)
+  - [Practical Elements](#practical-elements)
   - [Wireframes](#wireframes)
   - [Typography](#typography)
   - [Colour Palette](#colour-palette)
@@ -92,7 +95,7 @@ The CARE principles are a core part of the development process. The application 
 
 **Responsiveness** is table stakes for web design in the current era, as espoused by web designer [Ethan Marcotte](https://www.youtube.com/watch?v=4twHFfU44uE). I want to provide the user with an experience that is not compromised by their device. To this end, I have chosen a [Mobile First Design](https://www.youtube.com/watch?v=JcaX60ZscgA) (MFD) for the application. The design process will further explain my approach.
 
-Tying the above concepts together is the focus on keeping the focus of the application **essential**. In short, what needs to be there *is* there and anything which does not aid the aims of the application is discarded. I have found this philosophy to be at the heart of MFD as there is less screen real-estate for overly elaborate features and designs.
+Tying the above concepts together is the focus on keeping the application **essential**. In short, what needs to be there *is* there and anything which does not aid the project goals is discarded. I have found this philosophy to be at the heart of MFD as there is less screen real-estate for overly elaborate features and designs.
 
 ### User Stories
 
@@ -142,17 +145,17 @@ The strategy was to keep the content relevant to those who would use it and to s
 
 As the cafe did not have a website before, nor was there much competition in the immediate vicinity, I looked online to conduct an existing product audit. I took inspiration from [The Pottery Cafe](https://thepotterycafe.co.uk/). Although different in nature from a conventional cafe, I found the general page layout, footer format and gallery layout to be of a professional standard that I should be aiming for. The site also responded well to resizing of the browser window.
 
-The B2C format best describes the business style. Although food orders and catering is available for business, they are still customers in the conventional sense. I wanted to project a friendly image that mirrors the cafe's family friendly reputation.
+The B2C format best describes the business style. Although food orders and catering is available for business, they are still customers in the conventional sense. I wanted to project a positive, welcoming image that mirrors the cafe's family friendly reputation.
 
 ### Scope
 
-It was essential to determine the scope of the project from the beginning - what is in and what is out? The function of the site from different perspectives were detailed in the user stories and the application must meet these needs in form and function.
+It was essential to determine the scope of the project from the beginning - what is in and what is out? The function of the site from different perspectives were detailed in the [user stories.](#user-stories) The application must meet these needs in both form and function.
 
 The functional requirements are addressed in the [features](#features) section. The principle of essentialism helped to guide the project in the right direction, preventing scope creep from being a threat. As my first web application especially, iteration and refinement was a key part of the design process as I was learning and improving as the project progressed. I feel that the needs of the project were completely satisfied.
 
 ### Structure
 
-At this level, I looked at the organization of content and features. This entailed how that pages were structured and how the user would navigate them. Interaction Design (IXD) was at the forefront of this design phase. Users have expectations for how to navigate websites on their chosen device. The key was to leverage their expectations. The flow of pages is consistency and no luck is involved with how the user may interact with the application. Examples of this include having the body text on the homepage 'below the fold' to encourage the user to scroll down to read more after the hero image captures their attention. For desktop users, social calls to action change colour on mouse hover to highlight where they are and that action can be taken.
+At this level, I looked at the organization of content and features. This entailed how that pages were structured and how the user would navigate them. Interaction Design (IXD) was at the forefront of this design phase. Users have expectations for how to navigate websites on their chosen device. The key was to leverage their expectations. The flow of pages is consistency and no luck is involved with how the user may interact with the application. Examples of this include having the body text on the homepage 'below the fold' to encourage the user to scroll down to read more after the hero image captures their attention. For desktop users, social calls to action (CTA) change colour on mouse hover to highlight where they are and that action can be taken.
 
 ### Skeleton
 
@@ -162,7 +165,7 @@ Navigation is intuitive, regardless of device. The mobile site uses a navbar tha
 
 The footer contains social calls to action that are represented clearly. A back to the top button is featured to keep browsing and scrolling efficient and effortless.
 
-Wireframes were drafted as a general guide for the structure of pages across devices. This expanded on in more detail in its relevant [section](#wireframes).
+Wireframes were drafted as a general guide for the structure of pages across devices. This expanded on in more detail in its relevant [section.](#wireframes)
 
 ### Surface
 
@@ -172,7 +175,7 @@ This is where the design culminates. Does it smell like value? By following the 
 
 ### Wireframes
 
-I started jotting on paper the features that must be included followed by some rudimentary drawings of how the pages could look on mobile and desktop. I used [Balsamiq](https://balsamiq.com/) to draft mockups digitally of how I wanted the fundamental pages of the website to be laid out.
+I started by jotting on paper the features that must be included followed by some rudimentary drawings of how the pages could look on mobile and desktop. I used [Balsamiq](https://balsamiq.com/) to draft mockups digitally of how I wanted the fundamental pages of the website to be laid out.
 
 <details>
 <summary>Homepage</summary>
@@ -641,6 +644,7 @@ I am happy that the application met its goals in full. However, there is always 
 - [W3Schools](https://www.w3schools.com/) - My first port of call for furthering my understanding of basic HTML and CSS functionality
 - [CSS in Easy Steps 4th ed.](https://www.goodreads.com/book/show/1570211.CSS_in_Easy_Steps?from_search=true&from_srp=true&qid=YEtLs5mdby&rank=1) by Mike McGrath - invaluable in getting my understanding of layout and styling up to speed
 - [SEO for Dummies](https://www.goodreads.com/book/show/45004964-seo-for-dummies) by Peter Kent - Skimmed through pertinent sections to get a basic understanding of the concept
+- [Essentialism - The Disciplined Pursuit of Less](https://www.goodreads.com/book/show/18077875-essentialism) by Greg McKeown - Prior reading of this helped to keep the design process properly focussed
 - [Kevin Powell](https://www.youtube.com/kepowob) - My goto for CSS tutorials and exploring new possibilities
 - [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid and flexbox were things that existed
 - [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation
