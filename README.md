@@ -82,6 +82,8 @@ We will discover how these guiding principles formed the basis of my first web a
 
 - [Credits and Resources](#credits-and-resources)
 
+- [Closing Words](#closing-words)
+
 ---
 
 ## User Experience (UX)
@@ -724,5 +726,13 @@ I am happy that the application met its goals in full. However, there is always 
 - [Jimdo Blog](https://www.jimdo.com/blog/optimize-website-images-for-better-design-seo/) - A blog for web optimization. I found the linked example regarding images helpful
 - [Grace McKenna](https://github.com/gracemcken) - For letting me know that mobile-first design, grid, flexbox and Lighthouse were things that existed :pray:
 - [Kera Cudmore](https://github.com/kera-cudmore) and [YatechDev](https://github.com/YatechDev) for their advice and inspiration on robust documentation :+1:
+
+## Closing Words
+
+It has been a highly rewarding experience to create this web application. I enjoyed the challenge of creating something inspired by a real local business, which gave me the inspiration to aim for real-world usage standards.
+
+Although every line of code is my own, I still feel that coding is a highly collaborative discipline. No singular person knows everything and there is always more to discover. I have thoroughly enjoyed researching how to transfer my ideas to the screen for the world to see. Having a cohort of fellow code students available through Slack has created the perfect environment for sharing ideas and striving to create good work.
+
+I will continue to follow my principles of CARE. I want to be part of making the web more accessible to all. I look forward to the new technologies I will learn and how to apply them in the future!
 
 [Return to top](https://github.com/jts272/pp1-happy-bees-cafe#)
