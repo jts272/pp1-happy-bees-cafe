@@ -255,7 +255,7 @@ In determining the [scope](#scope) of the project, I planned to use 4 pages as t
 
 - Menu - A fundamental feature of a cafe. Contains the full menu as presented on the cafe's own printed media. Users would expect to find the most up to date pricing here.
 
-- Gallery - After browsing the menu, the user's appetite would be whetted to see the food on offer. I would select a broad range of different food to showcase the standards and variety on offer.
+- Gallery - After browsing the menu, the user's appetite would be whetted to see the food on offer. I would select a broad range of different food images to showcase the standards and variety on offer.
 
 - Order Form - Give users the option to interact with the business directly by placing an order. The form would follow a logical flow to guide users to their purchase.
 
@@ -299,7 +299,7 @@ Here we will explore the webpages in further detail:
 
 ### Order page:
 - Order Form
-  - This form gives the user a way to interact in placing a custom order. Wether for a workplace lunch or a fully catered event, the customer can send their request to be prepared.
+  - This form gives the user a way to interact in placing a custom order. Whether for a workplace lunch or a fully catered event, the customer can send their request to be prepared.
   - Responsive and retains high contrast regardless of layout.
   - Certain elements are required for the form to complete.
   - Sends user to Thank You Page upon sucessful completion.
@@ -319,13 +319,13 @@ Here we will explore the webpages in further detail:
 
 ## Development and Testing
 
-This application was coded in [GitPod](https://www.gitpod.io/), a cloud editor based on VS Code. I used the bash CLI to create my HTML and CSS files, as well as folder structure. Images were inserted into the images folder simply by drag and drop from Windows Explorer.
+This application was coded in [GitPod](https://www.gitpod.io/), a cloud editor based on VS Code. I used the bash command line interface (CLI) to create my HTML and CSS files, as well as folder structure. Images were inserted into the images folder simply by drag and drop from Windows Explorer.
 
-With respect to MFD, the bulk of the site was tested on Google Chrome browser. I used the inbuilt DevTools (F12) and the 'Responsive Mode'. I used the width of 320px as the lowest common denominator in my responsive design, as this is the smallest increment in DevTools by default, so was a good starting point.
+With respect to MFD, the bulk of the site was developed and tested on Google Chrome browser. I used the inbuilt DevTools (F12) and the 'Responsive Mode'. I used the width of 320px as the lowest common denominator in my responsive design, as this is the smallest increment in DevTools by default, so was a good starting point.
 
 For the Desktop iteration of the site, I chose a minimum with of 1024px, another generic breakpoint featured in DevTools.
 
-In between these points, I used the iPad Mini responsive preset to develop for the tablet offering. I made use of the ability to simualte both portrait and landscape views for mobile devices.
+In between these points, I used the iPad Mini responsive preset to develop for the tablet offering. I made use of the ability to simulate both portrait and landscape views for mobile devices.
 
 I prioritized my MVP for mobile, then desktop. Tablet resolutions such as the iPad Mini took a hybrid approach. As development progressed, I found that my tablet-specific wireframes weren't crucial to the experience. Instead of using development time on tailoring navigation icons and a 3 column gallery to this specific device, I saw that it elegantly could display a bigger mobile experience and smaller desktop experience in portrait and landscape, respectively.
 
@@ -333,13 +333,40 @@ I relied on the [GitPod Full Template](https://github.com/Code-Institute-Org/git
 
 I set up a python3 server in the CLI which allowed me to see how my code would display in the browser. It was as simple as saving my code in GitPod and refreshing the browser - with caching disabled.
 
-With respect to MFD, I frequently resized the browser window in DevTools to test my breakpoints. I chose relative values for Header and Nav elements which ensured that the presentation and flow did not break. As the nav elements are flex items, I wanted them to retain their horizontal flow without wrapping even at the smallest desktop width of 1024px.
+With respect to MFD, I frequently resized the browser window in DevTools to test my breakpoints. I chose relative size values for Header and Navigation elements which ensured that the presentation and flow did not break. As the nav elements are flex items, I wanted them to retain their horizontal flow without wrapping even at the smallest desktop width of 1024px.
 
-I would test the styling of my items and iterate to ensure I got the desired presentational effect. This was a great learning opportunity to improve my element targeting and value syntax skills as the project progressed.
+I would test the styling of my items and iterate to ensure I got the desired presentational effect at a range of resolutions, orientations and aspect ratios. This was a great learning opportunity to improve my element targeting and value syntax skills as the project progressed.
 
 Links were tested across pages. External links were tested to open a new browser tab. The form was tested to ensure that the browser recognized which elements were required, and that radio buttons were grouped correctly to prevent multiple selections. I tested the completed form to ensure it would send users to the Thank You Page upon completion.
 
-Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website URL in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
+Aside from the artistic and functional testing conducted by myself, I used online tools to validate the integrity of my code. They provide objective assessments to show if the code passes specification. This was a crucial step in the dev process, especially bearing accessiblity in mind. Outlined below after the testing sections are the tools I used to assess that my code was valid. They are used either by inputting the code in the case of the code validators or the website URL in the case of accessibility checks. Lighthouse checks were done through Chrome's DevTools.
+
+### Functionality Testing
+
+The tests here were performed on a range of devices and browsers, which can be found [here.](#devices-and-technologies-used) A pass is considered to have been successful on every device configuration listed.
+
+| Page | Test | Result |
+| --- | --- | --- |
+| All | Internal links go to relevant page | :heavy_check_mark: |
+| All | External links go to relevant page in new tab | :heavy_check_mark: |
+| All | Email and Telephone CTAs open relevant client on different systems | :heavy_check_mark: |
+| All | Current page is highlighted to user in navbar | :heavy_check_mark: |
+
+| Page | Test | Result |
+| --- | --- | --- |
+| Menu | Menu boards flex and wrap properly | :heavy_check_mark: |
+
+| Page | Test | Result |
+| --- | --- | --- |
+| Gallery | Images scale on hover without overflowing | :heavy_check_mark: |
+| Gallery | Images display and span in intended order | :heavy_check_mark: |
+
+| Page | Test | Result |
+| --- | --- | --- |
+| Form | Required form elements are recognized by the browser | :heavy_check_mark: |
+| Form | Only one radio button can be selected from a group | :heavy_check_mark: |
+| Form | Input elements accommodate their content and placeholder text | :heavy_check_mark: |
+| Form | Submit button takes user to the thank you page on completion | :heavy_check_mark: |
 
 ### User Stories Testing
 
